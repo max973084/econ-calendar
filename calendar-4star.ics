@@ -1,0 +1,823 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//流沙河//经济大事日历//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:经济大事日历 · ★4星以上（美股+中国）
+X-WR-TIMEZONE:Asia/Shanghai
+X-WR-CALDESC:聚焦美股与中国资产强关联事件；仅收录 ★4 
+ 及以上。数据源：下周经济大事日历
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:econ-20261113-cf9266a2b2@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261113T213000
+DTEND;TZID=Asia/Shanghai:20261113T220000
+SUMMARY:美国10月PPI
+DESCRIPTION:全称: 美国 10月 PPI（含核心 PPI）\n重要性: ★
+ ★★★☆\n状态: 已确认\n北京时间: 21:30（美东: 11/13 08:3
+ 0）\n前值: 9月 PPI 同比 +6.3%（预期 5.3%）、环比 +1.3%；核
+ 心 PPI 同比 +5.0%、环比 +0.7%；能源环比 +10.8%（BLS 10/15 公
+ 布）\n预期: 彭博预计同比 +6.6%（近四年最高），但环比
+ 涨幅或明显放缓（Bloomberg，2026-11-08）\n关联资产: 美股
+ 、美债、美元、黄金\n关注点: 9 月同比 +6.3% 为四年多最
+ 快，能源与运输仓储涨价沿供应链传导；彭博预计 10 月
+ 同比进一步升至 +6.6%，而环比动能放缓——同比与环比
+ 的背离是本次读数的核心看点。PPI 中的医疗与机票分项
+ 直接进入 PCE 计算。\n来源: U.S. BLS《Schedule of Selected Relea
+ ses 2026》（Producer Price Index for October 2026，11/13 08:30 ET）
+ ；前值引自 BLS 10/15 公布数据\n— 生成自「下周经济大
+ 事日历」，一致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:美国
+CATEGORIES:美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美国10月PPI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261116-8ca39ea337@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261116T100000
+DTEND;TZID=Asia/Shanghai:20261116T103000
+SUMMARY:中国10月经济数据
+DESCRIPTION:全称: 中国 10月 规模以上工业增加值 / 社会消
+ 费品零售总额 / 固定资产投资 / 城镇调查失业率\n重要
+ 性: ★★★★☆\n状态: 已确认\n北京时间: 10:00（美东: 11
+ /15 21:00）\n前值: 9月 工业增加值同比 +5.5%、社零 +1.1%、1
+ –9月固投累计 -7.2%（扣除房地产 -4.2%）、9月城镇调查
+ 失业率 5.2%（统计局 10/19 公布）；前三季度 GDP 同比 +4.6
+ %、三季度 +4.5%\n预期: 未获取（未取得彭博/Refinitiv/FactSe
+ t 口径）\n关联资产: A股（顺周期/消费/地产链）、港股
+ 、人民币、铜/铁矿石\n关注点: 9 月读数边际改善（工业
+  +5.5% 加快 0.3pp、社零 +1.1% 加快 0.7pp），但固投累计 -7.2
+ %（房地产 -20.6% 为主要拖累）仍未转正；10 月读数用于
+ 验证「政策托底能否止住内需下行」，是本月第二个中
+ 国经济总量检验点（第一个为 10/19 已公布的三季度 GDP +
+ 4.6%）。\n来源: 国家统计局《2026年主要统计信息发布日
+ 程表》第 1、7 项（11 月 16/一 10:00）\n— 生成自「下周
+ 经济大事日历」，一致预期仅采用彭博/Refinitiv/FactSet 口
+ 径
+LOCATION:中国
+CATEGORIES:中国资产
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：中国10月经济数据
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261116-f941b7b2ce@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261116T101500
+DTEND;TZID=Asia/Shanghai:20261116T104500
+SUMMARY:中国11月MLF
+DESCRIPTION:全称: 中国 11月 中期借贷便利（MLF）操作规模
+ 与中标利率\n重要性: ★★★★☆\n状态: 已确认（操作
+ 日待央行公告）\n北京时间: 10:15（美东: —）\n前值: 10 
+ 月 MLF 加量续作，中期流动性净投放维持高位；1 年期 ML
+ F 利率自 2025 年 5 月起未动（公开市场 7 天逆回购政策
+ 利率 1.4%）\n预期: 未获取\n关联资产: A股（银行/券商）
+ 、港股、人民币、中国国债\n关注点: MLF 续作规模与利
+ 率是当月 LPR 报价的定价基础；连续加量续作意味「宽
+ 信用、稳流动性」取向不变，但降息降准时点或继续后
+ 移。\n来源: 来源：未获取，待核实（人民银行通常在每
+ 月中旬开展 MLF 操作，操作日与规模以央行公开市场业
+ 务交易公告为准，本期未获公告确认，标「已确认（操
+ 作日待央行公告）」）；前值引自央行公开市场业务公
+ 告\n— 生成自「下周经济大事日历」，一致预期仅采用
+ 彭博/Refinitiv/FactSet 口径
+LOCATION:政策/央行
+CATEGORIES:中国资产\,央行/政策
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：中国11月MLF
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261117-05d87c35ab@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261117T190000
+DTEND;TZID=Asia/Shanghai:20261117T194500
+SUMMARY:家得宝Q3财报
+DESCRIPTION:全称: 家得宝 The Home Depot（HD）Q3 2026 财报\n重
+ 要性: ★★★★☆\n状态: 已确认\n北京时间: 19:00（美东:
+  11/17 06:00 盘前（电话会 09:00 ET））\n前值: Q2 2026 同店销
+ 售 +1.0%、EPS $4.92（超预期 +0.9%）\n预期: 未获取\n关联资
+ 产: 道琼斯指数、标普500可选消费、美股住宅建筑商/建
+ 材\n关注点: 同日公布的美 10 月零售销售与价格指数同
+ 时落地，家得宝可比销售是「高利率下大件耐用品需求
+ 」最直接的读数；管理层对 DIY 与专业承包商（Pro）结
+ 构的表述影响地产链情绪。\n来源: The Home Depot 投资者关
+ 系「Events」页（明确 11/17 盘前发布，电话会 09:00 ET）\n
+ — 生成自「下周经济大事日历」，一致预期仅采用彭博
+ /Refinitiv/FactSet 口径
+LOCATION:美股
+CATEGORIES:美国\,财报
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：家得宝Q3财报
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261117-9a0b418105@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261117T210500
+DTEND;TZID=Asia/Shanghai:20261117T215000
+SUMMARY:迪士尼FY26Q4财报
+DESCRIPTION:全称: 迪士尼 The Walt Disney Company（DIS）FY2026 Q4 
+ 财报\n重要性: ★★★★☆\n状态: 已确认\n北京时间: 21:0
+ 5（美东: 11/17 08:05 盘前）\n前值: FY2026 Q3（截至 6 月）：
+ 流媒体业务盈利能力改善、体验（乐园）业务营业利润
+ 同比增长\n预期: 未获取\n关联资产: 道琼斯指数、标普50
+ 0传媒/通讯服务\n关注点: Disney+ 订阅与 ARPU、流媒体整体
+ 能否持续盈利、体验业务（乐园＋邮轮）利润率，以及 
+ FY2027 内容与资本开支指引；道指权重股，单点波动可影
+ 响指数。\n来源: The Walt Disney Company 投资者关系 / Business 
+ Wire（明确 FY2026 Q4 于 11/17 盘前发布，网络直播 08:30 ET）
+ \n— 生成自「下周经济大事日历」，一致预期仅采用彭
+ 博/Refinitiv/FactSet 口径
+LOCATION:美股
+CATEGORIES:美国\,财报
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：迪士尼FY26Q4财报
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261117-15f2a7b9ef@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261117T213000
+DTEND;TZID=Asia/Shanghai:20261117T220000
+SUMMARY:美国10月零售销售
+DESCRIPTION:全称: 美国 10月 零售销售（Advance Monthly Retail Sa
+ les）\n重要性: ★★★★☆\n状态: 已确认\n北京时间: 21:3
+ 0（美东: 11/17 08:30）\n前值: 9月 零售销售环比 +0.2%（美
+ 国商务部普查局 10 月公布）\n预期: 未获取\n关联资产: 
+ 美股（消费/零售）、美债、美元\n关注点: 关税落地与
+ 就业降温双重背景下消费韧性的核心月度读数；结合同
+ 日发布的价格指数（进出口价格）可判断实际购买力变
+ 化，是 12/9 FOMC 前的重要需求侧证据。\n来源: U.S. Census B
+ ureau《Advance Monthly Retail Sales》日程（11/17 08:30 ET）；前
+ 值引自普查局 10 月公布数据\n— 生成自「下周经济大事
+ 日历」，一致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:美国
+CATEGORIES:美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美国10月零售销售
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261118-399759d2cc@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261118T052000
+DTEND;TZID=Asia/Shanghai:20261118T060500
+SUMMARY:英伟达FY27Q3财报
+DESCRIPTION:全称: 英伟达 NVIDIA（NVDA）FY2027 Q3 财报\n重要性
+ : ★★★★★\n状态: 已确认（公司日程确认 11/17 美东盘
+ 后）\n北京时间: 05:20（美东: 11/17 16:20 盘后）\n前值: FY20
+ 27 Q2（截至 7 月）：营收 $96.22B（同比 +105.8%）、数据中
+ 心 $89.02B、非 GAAP 毛利率 75%；公司指引 FY2027 Q3 毛利率 7
+ 4% ± 50bp\n预期: 未获取（公司指引：营收 $108B ± 2%；市
+ 场共识口径约 $108B、非 GAAP EPS 约 $2.47）\n关联资产: 标
+ 普500（权重约 8%）、纳斯达克100、美股半导体/AI 算力链
+ 、A股算力/光模块\n关注点: 全球市值最大公司的季度指
+ 引，是 AI 资本开支叙事与美股「集中度风险」的单一最
+ 大催化。关注点：① 营收能否触及 $108B 指引区间（低
+ 端约 $106B）；② 毛利率是否守住 74%±50bp（存储涨价对
+ 成本的压力）；③ Vera Rubin 平台爬坡进度（管理层指引
+ 占数据中心收入约 20%）；④ FY2028 约 +70% 增长目标是否
+ 维持（供应受限而非需求不足）；⑤ 对超大规模云厂商
+ （hyperscaler）资本开支与中国的表述。\n来源: NVIDIA 投资
+ 者关系（财报日程确认 FY2027 Q3 于 11/17 美东盘后发布）
+ ；公司 FY2027 Q2 业绩与指引引自其季报\n— 生成自「下
+ 周经济大事日历」，一致预期仅采用彭博/Refinitiv/FactSet 
+ 口径
+LOCATION:美股
+CATEGORIES:美国\,财报
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：英伟达FY27Q3财报
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261118-cbad4df2ec@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261118T180000
+DTEND;TZID=Asia/Shanghai:20261118T184500
+SUMMARY:腾讯Q3财报
+DESCRIPTION:全称: 腾讯控股 Tencent Holdings（0700.HK / 80700）202
+ 6 年第三季度业绩\n重要性: ★★★★☆\n状态: 已确认\n
+ 北京时间: 18:00（美东: —（港股收盘后，北京时间））\
+ n前值: 2026 年二季度：营收与净利润（公司季报公布）
+ ；游戏、广告、金融科技与企业服务分部增速\n预期: 未
+ 获取\n关联资产: 港股（恒生科技指数）、中概股（纳斯
+ 达克金龙指数）、A股互联网/AI 应用链\n关注点: 中国互
+ 联网龙头的 AI 变现进度：① 游戏（本土＋海外）流水
+ 与新品周期；② 广告（视频号、微信生态）增速；③ 
+ 金融科技与企业服务（含云与 AI 基础设施资本开支）；
+ ④ 分红与回购指引。董事会会议公告明确 11/18 审议三
+ 季度业绩并考虑派息。\n来源: 腾讯控股《董事会会议召
+ 开日期》公告（2026-09-24，联交所披露，明确 11/18 审议
+ 截至 9 月 30 日止三个月及九个月未经审核第三季度业绩
+ 并考虑派发股息）\n— 生成自「下周经济大事日历」，
+ 一致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:港股
+CATEGORIES:中国资产\,财报
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：腾讯Q3财报
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261118-934c96415a@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261118T190000
+DTEND;TZID=Asia/Shanghai:20261118T194500
+SUMMARY:塔吉特Q3财报
+DESCRIPTION:全称: 塔吉特 Target（TGT）Q3 2026 财报\n重要性: 
+ ★★★★☆\n状态: 已确认\n北京时间: 19:00（美东: 11/18 0
+ 6:00 盘前）\n前值: Q2 2026 可比销售与 EPS（公司 8 月公布
+ ）；FY2026 全年指引\n预期: 未获取\n关联资产: 标普500可
+ 选消费、美股零售、美债\n关注点: 中等收入家庭「可选
+ 消费」的晴雨表；可比销售趋势与全年指引是判断消费
+ 降级程度的核心。与 11/17 家得宝、11/19 沃尔玛构成美国
+ 零售财报周的三点验证。\n来源: Target Corporation 投资者
+ 关系「Events」（明确 Q3 2026 业绩电话会 11/18 08:00–09:00 E
+ T）\n— 生成自「下周经济大事日历」，一致预期仅采用
+ 彭博/Refinitiv/FactSet 口径
+LOCATION:美股
+CATEGORIES:美国\,财报
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：塔吉特Q3财报
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261119-342f9e4bf0@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261119T030000
+DTEND;TZID=Asia/Shanghai:20261119T033000
+SUMMARY:美联储FOMC纪要
+DESCRIPTION:全称: 美联储 FOMC 会议纪要（10月27–28日会议
+ ）\n重要性: ★★★★☆\n状态: 已确认\n北京时间: 03:00
+ （美东: 11/18 14:00）\n前值: 9/15–16 会议纪要（10/7 公布
+ ）；10/28 决议已将利率调整至 3.75%–4.00%（具体决议内
+ 容见 10/28 事件）\n预期: —\n关联资产: 美股、美债、美
+ 元、黄金\n关注点: 纪要将披露 10/28 决议的讨论细节与
+ 分歧程度（投票结构、对通胀与就业权衡的表述）；市
+ 场对 12/9 会议的定价高度依赖纪要中「鹰派 vs 鸽派」的
+ 力量对比，是政策路径的关键增量信息。\n来源: Federal R
+ eserve Board 官方日历（FOMC Minutes\, meeting of Oct. 27–28，11/1
+ 8 14:00 ET）；来源链接 federalreserve.gov/monetarypolicy/fomccalend
+ ars.htm\n— 生成自「下周经济大事日历」，一致预期仅采
+ 用彭博/Refinitiv/FactSet 口径
+LOCATION:政策/央行
+CATEGORIES:美国\,央行/政策
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美联储FOMC纪要
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261119-def98b64f3@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261119T193000
+DTEND;TZID=Asia/Shanghai:20261119T201500
+SUMMARY:阿里FY27Q2财报
+DESCRIPTION:全称: 阿里巴巴 Alibaba（BABA / 9988.HK）FY2027 Q2 财
+ 报\n重要性: ★★★★☆\n状态: 已确认（港交所 11/6 公
+ 告：11/19 公布业绩）\n北京时间: 19:30（美东: 11/19 早间
+ （公司惯例于美股盘前发布））\n前值: FY2027 Q1（截至 6 
+ 月）：营收 2690 亿元、净利 105 亿元、EPS 0.4632 元（公司
+  8/20 公布）\n预期: 未获取\n关联资产: 港股科技、中概
+ 互联、A股AI算力链、纳斯达克\n关注点: 云与 AI 基础设
+ 施资本开支、电商 GMV 与即时零售（淘宝闪购）补贴强
+ 度是三大看点；董事会 11/18 审议、11/19 公布业绩（港交
+ 所公告已确认），与腾讯（11/18）、京东同周，构成中
+ 概 Q3 财报三连。\n来源: 阿里巴巴集团《董事会会议召
+ 开日期》公告（港交所披露易 2026-11-06：董事会 11/18 审
+ 议，11/19 公布业绩）\n— 生成自「下周经济大事日历」
+ ，一致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:美股
+CATEGORIES:中国资产\,财报
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：阿里FY27Q2财报
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261119-af8e84b4a1@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261119T210000
+DTEND;TZID=Asia/Shanghai:20261119T214500
+SUMMARY:沃尔玛FY27Q3财报
+DESCRIPTION:全称: 沃尔玛 Walmart（WMT）FY2027 Q3 财报\n重要性
+ : ★★★★★\n状态: 已确认\n北京时间: 21:00（美东: 11/19
+  07:00 CT / 08:00 ET 盘前）\n前值: FY2027 Q2（截至 7 月）：营
+ 收与调整后 EPS（公司 8/20 公布）\n预期: 未获取\n关联资
+ 产: 道琼斯指数、标普500必需消费、美股零售（同业对
+ 照）\n关注点: 季度内最受关注的美国消费读数：营收约
+  $1800 亿级、触达约 90% 美国消费者。关注点：① 美国同
+ 店销售与客单价/交易量结构；② 电商、广告、会员等
+ 高毛利业务增速；③ 全年营收与调整后 EPS 指引（财报
+ 周整体消费信号的定调者）。\n来源: Walmart 企业新闻「F
+ Y2027 Q3 Earnings Release」（明确 11/19，材料约 06:00 CT、电话
+ 会 07:00 CT）\n— 生成自「下周经济大事日历」，一致预
+ 期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:美股
+CATEGORIES:美国\,财报
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：沃尔玛FY27Q3财报
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261120-5f0265acd8@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261120T091500
+DTEND;TZID=Asia/Shanghai:20261120T094500
+SUMMARY:中国11月LPR
+DESCRIPTION:全称: 中国 11月 贷款市场报价利率（LPR）\n重
+ 要性: ★★★★☆\n状态: 已确认（公布日）\n北京时间: 
+ 09:15（美东: —）\n前值: 1年期 3.0%、5年期以上 3.5%（2026-
+ 10-20 报价，已连续多月不变）\n预期: 未获取\n关联资产:
+  A股（银行/地产）、港股内房、人民币、中国国债\n关
+ 注点: 11/16 MLF 操作利率若维持不变，则当月 LPR 报价基
+ 础未变；5 年期以上 LPR 单独下调将被读作定向稳地产信
+ 号，是本窗口最后一个中国政策利率读数。\n来源: 中国
+ 货币网（全国银行间同业拆借中心）LPR 月度报价公告（
+ 每月 20 日 09:15）\n— 生成自「下周经济大事日历」，一
+ 致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:政策/央行
+CATEGORIES:中国资产\,央行/政策
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：中国11月LPR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261124-ac4509319e@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261124T180000
+DTEND;TZID=Asia/Shanghai:20261124T184500
+SUMMARY:小米Q3财报
+DESCRIPTION:全称: 小米集团 Xiaomi（1810.HK）2026 年第三季度
+ 业绩\n重要性: ★★★★☆\n状态: 已确认（联交所董事
+ 会会议日 11/24，收盘后公布）\n北京时间: 18:00（美东: 
+ —（港股收盘后，北京时间））\n前值: 2026 年二季度：
+ 营收与经调整净利（公司 8 月公布）；智能电动汽车交
+ 付量、手机出货与 ASP 为分部观察项\n预期: 未获取\n关
+ 联资产: 港股科技、恒生科技指数、A股消费电子／汽车
+ 零部件、中概互联\n关注点: 恒生科技权重股，汽车交付
+ 与毛利率、手机出货及 ASP、AIoT 需求是三大看点；Q3 为
+ 产品切换季、且电动车业务处于产能与费用投放期，业
+ 绩与 Q4 指引对港股科技情绪影响大。\n来源: 香港交易
+ 所「董事会会议召开日期」公告（小米集团-W，会议日 2
+ 026-11-24，业绩于收盘后公布）；经济通《业绩公布预告
+ 》同列 24/11/26；每日经济新闻 2026-11-05 报道确认 11/24 公
+ 告\n— 生成自「下周经济大事日历」，一致预期仅采用
+ 彭博/Refinitiv/FactSet 口径
+LOCATION:港股
+CATEGORIES:中国资产\,财报
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：小米Q3财报
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261125-72d74704c2@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261125T213000
+DTEND;TZID=Asia/Shanghai:20261125T220000
+SUMMARY:美国Q3 GDP二次估算
+DESCRIPTION:全称: 美国 Q3 2026 GDP 二次估算（Second Estimate）
+ ＋ 企业利润\n重要性: ★★★★☆\n状态: 已确认\n北京
+ 时间: 21:30（美东: 11/25 08:30）\n前值: Q3 初值折年 +3.4%（1
+ 0/29 公布，预期 3.1–3.2%，Q2 +2.2%）；Q1 二次估算 +1.6%\n
+ 预期: 未获取\n关联资产: 美股、美债、美元、黄金\n关
+ 注点: 对 10/29 初值的修正通常有限（平均 0.3–0.5 个百
+ 分点），但若与同日 PCE 组合出「增长下修＋通胀上修
+ 」的滞胀组合，将对 12/8–9 FOMC 定价产生方向性影响。B
+ EA 官方日程确认 11/25 08:30 ET（感恩节前周三）。\n来源: 
+ U.S. BEA Release Schedule（bea.gov：GDP (Second Estimate) and Corporate
+  Profits\, 3rd Quarter 2026，11/25 08:30 AM）\n— 生成自「下周
+ 经济大事日历」，一致预期仅采用彭博/Refinitiv/FactSet 口
+ 径
+LOCATION:美国
+CATEGORIES:美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美国Q3 GDP二次估算
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261125-d9114a5118@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261125T213100
+DTEND;TZID=Asia/Shanghai:20261125T220100
+SUMMARY:美国10月PCE
+DESCRIPTION:全称: 美国 10月 PCE 物价指数（含核心 PCE）＋ 
+ 个人收入与支出\n重要性: ★★★★★\n状态: 已确认\n北
+ 京时间: 21:31（美东: 11/25 08:31）\n前值: 9月 整体 PCE 同比
+  +3.6%、核心 PCE 同比 +3.1%（BEA 10/29 公布）；8月 核心 PCE 
+ 同比 +3.0%\n预期: 未获取\n关联资产: 美股、美债、美元
+ 、黄金\n关注点: 美联储 2% 目标所锚定的通胀口径，12/8
+ –9 FOMC（含点阵图）前最后一份月度通胀读数。感恩节
+ 前最后一个完整交易日发布，午后流动性收敛，预期差
+ 易被放大。BEA 官方日程确认 11/25 08:30 ET。\n来源: U.S. BEA
+  Release Schedule（bea.gov：Personal Income and Outlays\, October 2026
+ ，11/25 08:30 AM）\n— 生成自「下周经济大事日历」，一
+ 致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:美国
+CATEGORIES:美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美国10月PCE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261130-3c16ce904c@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261130T093000
+DTEND;TZID=Asia/Shanghai:20261130T100000
+SUMMARY:中国11月官方PMI
+DESCRIPTION:全称: 中国 11月 官方 PMI（制造业／非制造业／
+ 综合）\n重要性: ★★★★☆\n状态: 已确认（统计局月
+ 末最后一天 09:30 惯例）\n北京时间: 09:30（美东: —）\n
+ 前值: 10月：制造业 49.3、非制造业 49.7、综合 49.7（制造
+ 业 2026 年首次重回收缩）\n预期: 未获取\n关联资产: A股
+ 、人民币、商品货币\n关注点: 12 月中央经济工作会议前
+ 最重要的内生景气读数；若制造业连续第二个月低于 50
+ ，政策加码预期将进一步强化。\n来源: 国家统计局 2026 
+ 年信息发布日程（stats.gov.cn，月末最后一天 09:30）\n— 
+ 生成自「下周经济大事日历」，一致预期仅采用彭博/Ref
+ initiv/FactSet 口径
+LOCATION:中国
+CATEGORIES:中国资产
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：中国11月官方PMI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261201-e0cad8064e@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261201T230000
+DTEND;TZID=Asia/Shanghai:20261201T233000
+SUMMARY:美国11月ISM制造业PMI
+DESCRIPTION:全称: 美国 11月 ISM 制造业 PMI\n重要性: ★★★
+ ★☆\n状态: 已确认（每月首个营业日 10:00 ET 惯例）\n北
+ 京时间: 23:00（美东: 12/1 10:00）\n前值: 10月 55.5（11/2 23:00
+  公布，前值 54.5；生产 59.0、新订单 55.5、就业 52.4、价
+ 格 75.2；连续第 10 个月扩张）\n预期: 未获取\n关联资产:
+  美元指数、美债收益率、美股\n关注点: FOMC 静默期内首
+ 份全国制造业读数；价格分项与就业分项是 12/8–9 会议
+ 定价的关键输入。\n来源: ISM 官方发布日程（ismworld.org
+ ，首个营业日）\n— 生成自「下周经济大事日历」，一
+ 致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:美国
+CATEGORIES:美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美国11月ISM制造业PMI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261201-dba9ce4ed1@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261201T230200
+DTEND;TZID=Asia/Shanghai:20261201T233200
+SUMMARY:美国10月JOLTS
+DESCRIPTION:全称: 美国 10月 JOLTS 职位空缺与劳动力流动调
+ 查\n重要性: ★★★★☆\n状态: 已确认（BLS 日程）\n北
+ 京时间: 23:00（美东: 12/1 10:00）\n前值: 9月 职位空缺 711.0
+  万（11/3 公布，前值 707.9 万，小幅回升）\n预期: 未获
+ 取\n关联资产: 美股、美债、美元\n关注点: 静默期内劳
+ 动力需求存量读数：职位空缺与自主离职率反映用工紧
+ 张度，是 12/4 非农之外最重要的就业结构指标。\n来源: 
+ U.S. BLS《Job Openings and Labor Turnover Survey》发布日程（10 月
+ 数据 12/1 10:00 ET）\n— 生成自「下周经济大事日历」，
+ 一致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:美国
+CATEGORIES:美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美国10月JOLTS
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261203-567ff91f15@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261203T050000
+DTEND;TZID=Asia/Shanghai:20261203T054500
+SUMMARY:Salesforce FY27Q3财报
+DESCRIPTION:全称: Salesforce（CRM）FY2027 Q3 财报\n重要性: ★
+ ★★★☆\n状态: 预计\n北京时间: 05:00（美东: 12/2 盘后
+ ）\n前值: 上季（FY27Q2，8/26）营收双位数增长并上调全
+ 年指引，EPS 5.90\n预期: 未获取（第三方口径不引用）\n
+ 关联资产: 美股软件板块、纳指\n关注点: Agentforce／Data C
+ loud 的 AI 货币化增速与 Slack、Contentful 并表节奏——企
+ 业软件 AI 支出景气的旗舰读数。\n来源: TipRanks 列 12/2 
+ 盘后（Confirmed），基于历史节奏——未获公司 IR 直接核
+ 实，标「预计」\n— 生成自「下周经济大事日历」，一
+ 致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:美股
+CATEGORIES:财报\,美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：Salesforce FY27Q3财报
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261203-237bd48682@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261203T230000
+DTEND;TZID=Asia/Shanghai:20261203T233000
+SUMMARY:美国11月ISM服务业PMI
+DESCRIPTION:全称: 美国 11月 ISM 非制造业（服务业）PMI\n重
+ 要性: ★★★★☆\n状态: 已确认（每月第三个营业日 10:
+ 00 ET 惯例）\n北京时间: 23:00（美东: 12/3 10:00）\n前值: 10
+ 月 54.5（11/4 23:00 公布，预期 54.8、前值 54.9，3 个月新低
+ ；价格 73、就业 50.1、新订单 59.8）\n预期: 未获取\n关联
+ 资产: 美元指数、美债收益率、美股\n关注点: 服务业占
+ 美国经济约九成，其价格分项是核心服务通胀的领先读
+ 数。\n来源: ISM 官方发布日程（ismworld.org，第三个营业
+ 日）\n— 生成自「下周经济大事日历」，一致预期仅采
+ 用彭博/Refinitiv/FactSet 口径
+LOCATION:美国
+CATEGORIES:美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美国11月ISM服务业PMI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261204-a91157a3df@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261204T213000
+DTEND;TZID=Asia/Shanghai:20261204T220000
+SUMMARY:美国11月非农
+DESCRIPTION:全称: 美国 11月 非农就业报告（含失业率、平
+ 均时薪）\n重要性: ★★★★★\n状态: 已确认\n北京时间
+ : 21:30（美东: 12/4 08:30）\n前值: 10月 +16.5 万、失业率 4.1%
+ （11/6 公布；8–9 月合计上修 8.4 万；时薪同比 +3.1%；9 
+ 月修正后 +6.0 万）\n预期: 未获取\n关联资产: 美元指数
+ 、美债收益率、黄金、美股\n关注点: 12/8–9 FOMC（含点
+ 阵图）前最后一份就业报告；静默期内定价几乎完全由
+ 本报告与本周 ISM 决定——偏强数据将坐实 12 月加息 25b
+ p。\n来源: BLS《Employment Situation》发布日程（bls.gov/schedul
+ e，2026-12-04 08:30 ET）\n— 生成自「下周经济大事日历」
+ ，一致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:美国
+CATEGORIES:美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美国11月非农
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261209-cf1e4cb679@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261209T093000
+DTEND;TZID=Asia/Shanghai:20261209T100000
+SUMMARY:中国11月CPI
+DESCRIPTION:全称: 中国 11月 CPI（居民消费价格指数）\n重
+ 要性: ★★★★☆\n状态: 预计\n北京时间: 09:30（美东: 
+ —）\n前值: 10 月 同比（11/9 09:30 发布，实际值待回填）
+ ；9月 +0.9%、核心 +1.0%（统计局 10/14 公布）\n预期: 未获
+ 取\n关联资产: A股、港股、人民币、债市\n关注点: 统计
+ 局惯例于每月 9 日前后发布（本期具体日期以 2026 年发
+ 布日程表为准，标「预计」）；居民端通胀能否走出低
+ 位，决定市场对内需政策空间的判断。\n来源: 国家统计
+ 局《2026年主要统计信息发布日程表》——12 月日程页未
+ 核实，标「预计」；前值引自统计局已公布数据\n— 生
+ 成自「下周经济大事日历」，一致预期仅采用彭博/Refini
+ tiv/FactSet 口径
+LOCATION:中国
+CATEGORIES:中国资产
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：中国11月CPI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261209-423a49213a@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261209T093100
+DTEND;TZID=Asia/Shanghai:20261209T100100
+SUMMARY:中国11月PPI
+DESCRIPTION:全称: 中国 11月 PPI（工业生产者出厂价格指数
+ ）\n重要性: ★★★★☆\n状态: 预计\n北京时间: 09:31（
+ 美东: —）\n前值: 10 月 同比（11/9 发布，待回填）；9月
+  +5.0%（2022 年 7 月以来新高）、环比 +1.2%（统计局 10/14 
+ 公布）\n预期: 未获取\n关联资产: A股、工业品、人民币\
+ n关注点: 与 CPI 同日 09:30 发布；「上游强、终端弱」的
+ 剪刀差走向是周期股与工业品定价核心。\n来源: 国家统
+ 计局《2026年主要统计信息发布日程表》——标「预计」
+ \n— 生成自「下周经济大事日历」，一致预期仅采用彭
+ 博/Refinitiv/FactSet 口径
+LOCATION:中国
+CATEGORIES:中国资产
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：中国11月PPI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261210-b38f18e314@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261210T030000
+DTEND;TZID=Asia/Shanghai:20261210T033000
+SUMMARY:美联储FOMC决议
+DESCRIPTION:全称: 美联储 FOMC 利率决议（12月8–9日会议，
+ 含点阵图 SEP）\n重要性: ★★★★★\n状态: 已确认（fede
+ ralreserve.gov 官方日历）\n北京时间: 03:00（美东: 12/9 14:00
+ ）\n前值: 当前联邦基金利率 3.75%–4.00%（9/16 加息 25bp、
+ 10/28 维持不变，10–2 表决、Cook/Hammack 主张加息）；会
+ 后 12 月加息 25bp 定价约 83%～90%（CME FedWatch，10/30 读数
+ ）\n预期: —\n关联资产: 美股、美债、美元、黄金\n关注
+ 点: 本窗口收官段最大事件：① 是否加息 25bp；② 点阵
+ 图与 SEP 对 2027 年利率路径的中值；③ 声明与记者会（1
+ 4:30 ET＝北京 03:30）对通胀「更高更久」的表述。会前最
+ 后输入：11/25 10 月 PCE 与 12/4 11 月非农；决议次日晚间 2
+ 1:30 即公布 11 月 CPI，构成 24 小时「政策＋通胀」双落
+ 地。\n来源: Federal Reserve Board 官方日历（federalreserve.gov/m
+ onetarypolicy/fomccalendars.htm：FOMC meeting December 8–9）\n— 生
+ 成自「下周经济大事日历」，一致预期仅采用彭博/Refini
+ tiv/FactSet 口径
+LOCATION:政策/央行
+CATEGORIES:美国\,央行/政策
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美联储FOMC决议
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261210-06051721b6@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261210T213000
+DTEND;TZID=Asia/Shanghai:20261210T220000
+SUMMARY:美国11月CPI
+DESCRIPTION:全称: 美国 11月 CPI（含核心 CPI）\n重要性: ★
+ ★★★★\n状态: 已确认（BLS 官方日程）\n北京时间: 21:3
+ 0（美东: 12/10 08:30）\n前值: 10月 CPI 同比 +3.7%、核心 +2.6%
+ （11/10 08:30 ET 公布，实际值待回填；9月 环比 +0.6%，汽
+ 油贡献过半）\n预期: 未获取\n关联资产: 美股、美债、
+ 美元、黄金\n关注点: 决议落地约 18 小时后接续发布的
+ 月度通胀读数：若决议加息而 CPI 环比继续偏强，将进
+ 一步坐实「更高更久」；能源分项（9 月汽油环比 +9.1%
+ ）仍是最大扰动。\n来源: U.S. BLS《Schedule of Selected Release
+ s 2026》（Consumer Price Index for November 2026，12/10 08:30 ET）\n
+ — 生成自「下周经济大事日历」，一致预期仅采用彭博
+ /Refinitiv/FactSet 口径
+LOCATION:美国
+CATEGORIES:美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美国11月CPI
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261212-9d058f7274@weekly-econ-calendar
+DTSTAMP:20261112T011550Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261212T050000
+DTEND;TZID=Asia/Shanghai:20261212T054500
+SUMMARY:博通FY26Q4财报
+DESCRIPTION:全称: 博通 Broadcom（AVGO）FY2026 Q4 财报\n重要性:
+  ★★★★☆\n状态: 预计\n北京时间: 05:00（美东: 12/11 盘
+ 后（预计））\n前值: FY2026 Q3（8 月公布）：AI 半导体收
+ 入高增并上调全年 AI 收入指引（具体读数本页未回填）
+ \n预期: 未获取\n关联资产: 纳斯达克、美股半导体/AI 算
+ 力链、A股算力链\n关注点: AI 定制 ASIC（XPU）与网络芯片
+ 出货指引，是英伟达之外 AI 硬件叙事的第二根支柱；公
+ 司历史多在 12 月第二个周四盘后发布，未获 IR 确认，
+ 标「预计」。\n来源: 来源：未获取，待核实（公司历史
+ 发布节奏：12 月中旬周四盘后）\n— 生成自「下周经济
+ 大事日历」，一致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:美股
+CATEGORIES:美国\,财报
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：博通FY26Q4财报
+END:VALARM
+END:VEVENT
+END:VCALENDAR
