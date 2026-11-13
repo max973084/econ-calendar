@@ -20,7 +20,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:econ-20261113-cf9266a2b2@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261113T213000
 DTEND;TZID=Asia/Shanghai:20261113T220000
@@ -29,16 +29,17 @@ DESCRIPTION:全称: 美国 10月 PPI（含核心 PPI）\n重要性: ★
  ★★★☆\n状态: 已确认\n北京时间: 21:30（美东: 11/13 08:3
  0）\n前值: 9月 PPI 同比 +6.3%（预期 5.3%）、环比 +1.3%；核
  心 PPI 同比 +5.0%、环比 +0.7%；能源环比 +10.8%（BLS 10/15 公
- 布）\n预期: 彭博预计同比 +6.6%（近四年最高），但环比
- 涨幅或明显放缓（Bloomberg，2026-11-08）\n关联资产: 美股
- 、美债、美元、黄金\n关注点: 9 月同比 +6.3% 为四年多最
- 快，能源与运输仓储涨价沿供应链传导；彭博预计 10 月
- 同比进一步升至 +6.6%，而环比动能放缓——同比与环比
- 的背离是本次读数的核心看点。PPI 中的医疗与机票分项
- 直接进入 PCE 计算。\n来源: U.S. BLS《Schedule of Selected Relea
- ses 2026》（Producer Price Index for October 2026，11/13 08:30 ET）
- ；前值引自 BLS 10/15 公布数据\n— 生成自「下周经济大
- 事日历」，一致预期仅采用彭博/Refinitiv/FactSet 口径
+ 布）\n预期: 彭博预计未季调同比 +6.6%（前值 +6.3%，将创
+  2022 年 12 月以来最大同比涨幅）、季调环比 +0.4%（前值
+  +1.3%）（Bloomberg，2026-11-10）\n关联资产: 美股、美债、
+ 美元、黄金\n关注点: 9 月同比 +6.3% 为四年多最快，能源
+ 与运输仓储涨价沿供应链传导；彭博预计 10 月同比进一
+ 步升至 +6.6%，而环比动能放缓——同比与环比的背离是
+ 本次读数的核心看点。PPI 中的医疗与机票分项直接进入
+  PCE 计算。\n来源: U.S. BLS《Schedule of Selected Releases 2026》
+ （Producer Price Index for October 2026，11/13 08:30 ET）；前值引
+ 自 BLS 10/15 公布数据\n— 生成自「下周经济大事日历」
+ ，一致预期仅采用彭博/Refinitiv/FactSet 口径
 LOCATION:美国
 CATEGORIES:美国
 STATUS:CONFIRMED
@@ -51,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261116-8ca39ea337@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261116T100000
 DTEND;TZID=Asia/Shanghai:20261116T103000
@@ -85,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261116-f941b7b2ce@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261116T101500
 DTEND;TZID=Asia/Shanghai:20261116T104500
@@ -117,7 +118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261117-05d87c35ab@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261117T190000
 DTEND;TZID=Asia/Shanghai:20261117T194500
@@ -146,7 +147,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261117-9a0b418105@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261117T210500
 DTEND;TZID=Asia/Shanghai:20261117T215000
@@ -175,7 +176,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261117-15f2a7b9ef@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261117T213000
 DTEND;TZID=Asia/Shanghai:20261117T220000
@@ -203,7 +204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261118-399759d2cc@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261118T052000
 DTEND;TZID=Asia/Shanghai:20261118T060500
@@ -213,21 +214,25 @@ DESCRIPTION:全称: 英伟达 NVIDIA（NVDA）FY2027 Q3 财报\n重要性
  后）\n北京时间: 05:20（美东: 11/17 16:20 盘后）\n前值: FY20
  27 Q2（截至 7 月）：营收 $96.22B（同比 +105.8%）、数据中
  心 $89.02B、非 GAAP 毛利率 75%；公司指引 FY2027 Q3 毛利率 7
- 4% ± 50bp\n预期: 未获取（公司指引：营收 $108B ± 2%；市
- 场共识口径约 $108B、非 GAAP EPS 约 $2.47）\n关联资产: 标
- 普500（权重约 8%）、纳斯达克100、美股半导体/AI 算力链
- 、A股算力/光模块\n关注点: 全球市值最大公司的季度指
- 引，是 AI 资本开支叙事与美股「集中度风险」的单一最
- 大催化。关注点：① 营收能否触及 $108B 指引区间（低
- 端约 $106B）；② 毛利率是否守住 74%±50bp（存储涨价对
- 成本的压力）；③ Vera Rubin 平台爬坡进度（管理层指引
- 占数据中心收入约 20%）；④ FY2028 约 +70% 增长目标是否
- 维持（供应受限而非需求不足）；⑤ 对超大规模云厂商
- （hyperscaler）资本开支与中国的表述。\n来源: NVIDIA 投资
- 者关系（财报日程确认 FY2027 Q3 于 11/17 美东盘后发布）
- ；公司 FY2027 Q2 业绩与指引引自其季报\n— 生成自「下
- 周经济大事日历」，一致预期仅采用彭博/Refinitiv/FactSet 
- 口径
+ 4% ± 50bp。⚠️ 11/12 公司宣布黄仁勋辞任 CEO、CFO 克雷斯
+ 任临时 CEO（见 11/12 条目）\n预期: 公司指引营收 $108B ± 
+ 2%；标普统计市场平均预期 营收 $109.01B（同比 +91%）、
+ 非 GAAP EPS 约 $2.47（市场口径）\n关联资产: 标普500（权
+ 重约 8%）、纳斯达克100、美股半导体/AI 算力链、A股算
+ 力/光模块\n关注点: 本次财报同时是「后黄仁勋时代」
+ 的第一场业绩会（11/12 宣布 CEO 变动、董事会启动遴选
+ ），治理折价与基本面需分开定价。关注点：① 营收能
+ 否触及 $108B 指引区间（市场平均预期 $109.01B、同比 +91%
+ ）；② 毛利率是否守住 74%±50bp（存储涨价对成本的压
+ 力）；③ Vera Rubin 平台爬坡（管理层指引占数据中心收
+ 入约 20%）；④ FY2028 约 +70% 增长目标是否维持（供应受
+ 限而非需求不足）；⑤ 对 hyperscaler 资本开支与中国的
+ 表述。标普 500 权重约 8%，指引不及预期将同时冲击美
+ 股 AI 链、中国台湾地区科技股与 A 股算力板块。\n来源:
+  NVIDIA 投资者关系（财报日程确认 FY2027 Q3 于 11/17 美东
+ 盘后发布）；公司 FY2027 Q2 业绩与指引引自其季报\n— 
+ 生成自「下周经济大事日历」，一致预期仅采用彭博/Ref
+ initiv/FactSet 口径
 LOCATION:美股
 CATEGORIES:美国\,财报
 STATUS:CONFIRMED
@@ -240,7 +245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261118-cbad4df2ec@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261118T180000
 DTEND;TZID=Asia/Shanghai:20261118T184500
@@ -273,7 +278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261118-934c96415a@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261118T190000
 DTEND;TZID=Asia/Shanghai:20261118T194500
@@ -301,7 +306,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261119-342f9e4bf0@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261119T030000
 DTEND;TZID=Asia/Shanghai:20261119T033000
@@ -331,7 +336,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261119-def98b64f3@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261119T193000
 DTEND;TZID=Asia/Shanghai:20261119T201500
@@ -362,7 +367,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261119-af8e84b4a1@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261119T210000
 DTEND;TZID=Asia/Shanghai:20261119T214500
@@ -391,8 +396,46 @@ DESCRIPTION:20分钟后：沃尔玛FY27Q3财报
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:econ-20261119-0051086d8d@weekly-econ-calendar
+DTSTAMP:20261113T011741Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261119T223000
+DTEND;TZID=Asia/Shanghai:20261119T230000
+SUMMARY:Anthropic上市
+DESCRIPTION:全称: Anthropic（ANT）纳斯达克 IPO 首日交易（史
+ 上最大 IPO）\n重要性: ★★★★☆\n状态: 已确认（纳斯
+ 达克 11/11 公告：11/19 上市）\n北京时间: 22:30（美东: 11/1
+ 9 09:30 ET 开盘）\n前值: —\n预期: 定价区间 $70–78/股、
+ 发行 8.25 亿股，募资最高 643.5 亿美元（含绿鞋约 740 亿
+ ）；完全稀释估值约 1.4 万亿美元，承销商已释放上调
+ 信号\n关联资产: 纳斯达克、AI 板块（英伟达/谷歌/AMD）
+ 、美股流动性、A股 AI 应用链\n关注点: 史上最大 IPO：11/
+ 18 美股收盘后定价、11/19 09:30 ET 开盘交易（代码 ANT）。
+ ① 定价与首日表现是 AI 估值信仰的公开投票；② 640–9
+ 00 亿美元的股票供给直接抽离美股流动性，与英伟达财
+ 报（北京 11/18 05:20）构成同一周的「AI 双考」；③ 谷歌
+ 、英伟达、微软、AMD 以 IPO 价格合计认购 260 亿美元私
+ 募，形成交叉持股。招股书口径：2025 年营收 45.9 亿美
+ 元；截至 9/30 的 9 个月营收 332 亿美元（Q3 单季 170 亿）
+ 、净亏损 1\,040 亿美元（可转债公允价值上升所致）；
+ 算力与基础设施支出 188 亿美元。\n来源: Nasdaq Trader《Dat
+ a Technical News #2026-28》（Anthropic\, PBC 于 11/19 在 Nasdaq Globa
+ l Select Market 挂牌，代码 ANT）；公司招股书与承销团口
+ 径\n— 生成自「下周经济大事日历」，一致预期仅采用
+ 彭博/Refinitiv/FactSet 口径
+LOCATION:美国
+CATEGORIES:美国\,财报
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：Anthropic上市
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:econ-20261120-5f0265acd8@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261120T091500
 DTEND;TZID=Asia/Shanghai:20261120T094500
@@ -420,7 +463,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261124-ac4509319e@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261124T180000
 DTEND;TZID=Asia/Shanghai:20261124T184500
@@ -453,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261125-72d74704c2@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261125T213000
 DTEND;TZID=Asia/Shanghai:20261125T220000
@@ -483,7 +526,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261125-d9114a5118@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261125T213100
 DTEND;TZID=Asia/Shanghai:20261125T220100
@@ -512,7 +555,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261130-3c16ce904c@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261130T093000
 DTEND;TZID=Asia/Shanghai:20261130T100000
@@ -540,7 +583,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261201-e0cad8064e@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261201T230000
 DTEND;TZID=Asia/Shanghai:20261201T233000
@@ -567,7 +610,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261201-dba9ce4ed1@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261201T230200
 DTEND;TZID=Asia/Shanghai:20261201T233200
@@ -594,7 +637,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261203-567ff91f15@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261203T050000
 DTEND;TZID=Asia/Shanghai:20261203T054500
@@ -621,7 +664,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261203-237bd48682@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261203T230000
 DTEND;TZID=Asia/Shanghai:20261203T233000
@@ -648,7 +691,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261204-a91157a3df@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261204T213000
 DTEND;TZID=Asia/Shanghai:20261204T220000
@@ -676,7 +719,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261209-cf1e4cb679@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261209T093000
 DTEND;TZID=Asia/Shanghai:20261209T100000
@@ -705,7 +748,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261209-423a49213a@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261209T093100
 DTEND;TZID=Asia/Shanghai:20261209T100100
@@ -732,7 +775,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261210-b38f18e314@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261210T030000
 DTEND;TZID=Asia/Shanghai:20261210T033000
@@ -742,17 +785,17 @@ DESCRIPTION:全称: 美联储 FOMC 利率决议（12月8–9日会议，
  ralreserve.gov 官方日历）\n北京时间: 03:00（美东: 12/9 14:00
  ）\n前值: 当前联邦基金利率 3.75%–4.00%（9/16 加息 25bp、
  10/28 维持不变，10–2 表决、Cook/Hammack 主张加息）；会
- 后 12 月加息 25bp 定价约 83%～90%（CME FedWatch，10/30 读数
- ）\n预期: —\n关联资产: 美股、美债、美元、黄金\n关注
- 点: 本窗口收官段最大事件：① 是否加息 25bp；② 点阵
- 图与 SEP 对 2027 年利率路径的中值；③ 声明与记者会（1
- 4:30 ET＝北京 03:30）对通胀「更高更久」的表述。会前最
- 后输入：11/25 10 月 PCE 与 12/4 11 月非农；决议次日晚间 2
- 1:30 即公布 11 月 CPI，构成 24 小时「政策＋通胀」双落
- 地。\n来源: Federal Reserve Board 官方日历（federalreserve.gov/m
- onetarypolicy/fomccalendars.htm：FOMC meeting December 8–9）\n— 生
- 成自「下周经济大事日历」，一致预期仅采用彭博/Refini
- tiv/FactSet 口径
+ 后 12 月加息 25bp 定价 93.7%、加息 50bp 定价 6.3%（CME FedWat
+ ch，11/12 读数）\n预期: —\n关联资产: 美股、美债、美元
+ 、黄金\n关注点: 本窗口收官段最大事件：① 是否加息 2
+ 5bp；② 点阵图与 SEP 对 2027 年利率路径的中值；③ 声明
+ 与记者会（14:30 ET＝北京 03:30）对通胀「更高更久」的
+ 表述。会前最后输入：11/25 10 月 PCE 与 12/4 11 月非农；
+ 决议次日晚间 21:30 即公布 11 月 CPI，构成 24 小时「政策
+ ＋通胀」双落地。\n来源: Federal Reserve Board 官方日历（fe
+ deralreserve.gov/monetarypolicy/fomccalendars.htm：FOMC meeting December
+  8–9）\n— 生成自「下周经济大事日历」，一致预期仅
+ 采用彭博/Refinitiv/FactSet 口径
 LOCATION:政策/央行
 CATEGORIES:美国\,央行/政策
 STATUS:CONFIRMED
@@ -765,23 +808,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261210-06051721b6@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261210T213000
 DTEND;TZID=Asia/Shanghai:20261210T220000
 SUMMARY:美国11月CPI
 DESCRIPTION:全称: 美国 11月 CPI（含核心 CPI）\n重要性: ★
  ★★★★\n状态: 已确认（BLS 官方日程）\n北京时间: 21:3
- 0（美东: 12/10 08:30）\n前值: 10月 CPI 同比 +3.7%、核心 +2.6%
- （11/10 08:30 ET 公布，实际值待回填；9月 环比 +0.6%，汽
- 油贡献过半）\n预期: 未获取\n关联资产: 美股、美债、
- 美元、黄金\n关注点: 决议落地约 18 小时后接续发布的
- 月度通胀读数：若决议加息而 CPI 环比继续偏强，将进
- 一步坐实「更高更久」；能源分项（9 月汽油环比 +9.1%
- ）仍是最大扰动。\n来源: U.S. BLS《Schedule of Selected Release
- s 2026》（Consumer Price Index for November 2026，12/10 08:30 ET）\n
- — 生成自「下周经济大事日历」，一致预期仅采用彭博
- /Refinitiv/FactSet 口径
+ 0（美东: 12/10 08:30）\n前值: 10 月 CPI 环比 +0.4%、核心环
+ 比 +0.3%（11/10 公布，连续三个月 0.3%）；⚠️ 2025 年停
+ 摆缺基数，BLS 不发布官方同比，仅环比可比（9 月环比 
+ +0.6%，汽油贡献过半）\n预期: 未获取\n关联资产: 美股、
+ 美债、美元、黄金\n关注点: 决议落地约 18 小时后接续
+ 发布的月度通胀读数：若决议加息而 CPI 环比继续偏强
+ ，将进一步坐实「更高更久」；能源分项（9 月汽油环
+ 比 +9.1%）仍是最大扰动。\n来源: U.S. BLS《Schedule of Selecte
+ d Releases 2026》（Consumer Price Index for November 2026，12/10 08:30
+  ET）\n— 生成自「下周经济大事日历」，一致预期仅采
+ 用彭博/Refinitiv/FactSet 口径
 LOCATION:美国
 CATEGORIES:美国
 STATUS:CONFIRMED
@@ -794,7 +838,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261212-9d058f7274@weekly-econ-calendar
-DTSTAMP:20261112T011550Z
+DTSTAMP:20261113T011741Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261212T050000
 DTEND;TZID=Asia/Shanghai:20261212T054500
