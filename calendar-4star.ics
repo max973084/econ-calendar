@@ -20,7 +20,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:econ-20261116-8ca39ea337@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261116T100000
 DTEND;TZID=Asia/Shanghai:20261116T103000
@@ -54,26 +54,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261116-f941b7b2ce@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261116T101500
 DTEND;TZID=Asia/Shanghai:20261116T104500
 SUMMARY:中国11月MLF
 DESCRIPTION:全称: 中国 11月 中期借贷便利（MLF）操作规模
- 与中标利率\n重要性: ★★★★☆\n状态: 已确认（操作
- 日待央行公告）\n北京时间: 10:15（美东: —）\n前值: 10 
- 月 MLF 加量续作，中期流动性净投放维持高位；1 年期 ML
- F 利率自 2025 年 5 月起未动（公开市场 7 天逆回购政策
- 利率 1.4%）\n预期: 未获取\n关联资产: A股（银行/券商）
- 、港股、人民币、中国国债\n关注点: MLF 续作规模与利
- 率是当月 LPR 报价的定价基础；连续加量续作意味「宽
- 信用、稳流动性」取向不变，但降息降准时点或继续后
- 移。\n来源: 来源：未获取，待核实（人民银行通常在每
- 月中旬开展 MLF 操作，操作日与规模以央行公开市场业
- 务交易公告为准，本期未获公告确认，标「已确认（操
- 作日待央行公告）」）；前值引自央行公开市场业务公
- 告\n— 生成自「下周经济大事日历」，一致预期仅采用
- 彭博/Refinitiv/FactSet 口径
+ 与中标利率\n重要性: ★★★★☆\n状态: 待确认（操作
+ 日以央行公开市场业务交易公告为准）\n北京时间: 10:15
+ （美东: —）\n前值: 10 月 MLF 加量续作，中期流动性净
+ 投放维持高位；1 年期 MLF 利率自 2025 年 5 月起未动（公
+ 开市场 7 天逆回购政策利率 1.4%）\n预期: 未获取\n关联
+ 资产: A股（银行/券商）、港股、人民币、中国国债\n关
+ 注点: MLF 续作规模与利率是当月 LPR 报价的定价基础；
+ 连续加量续作意味「宽信用、稳流动性」取向不变，但
+ 降息降准时点或继续后移。\n来源: 来源：未获取，待核
+ 实（人民银行通常在每月中旬开展 MLF 操作，操作日与
+ 规模以央行公开市场业务交易公告为准，本期未获公告
+ 确认，标「已确认（操作日待央行公告）」）；前值引
+ 自央行公开市场业务公告\n— 生成自「下周经济大事日
+ 历」，一致预期仅采用彭博/Refinitiv/FactSet 口径
 LOCATION:政策/央行
 CATEGORIES:中国资产\,央行/政策
 STATUS:CONFIRMED
@@ -86,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261117-05d87c35ab@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261117T190000
 DTEND;TZID=Asia/Shanghai:20261117T194500
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261117-9a0b418105@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261117T210500
 DTEND;TZID=Asia/Shanghai:20261117T215000
@@ -144,7 +144,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261117-15f2a7b9ef@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261117T213000
 DTEND;TZID=Asia/Shanghai:20261117T220000
@@ -172,7 +172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261118-399759d2cc@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261118T052000
 DTEND;TZID=Asia/Shanghai:20261118T060500
@@ -213,7 +213,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261118-cbad4df2ec@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261118T180000
 DTEND;TZID=Asia/Shanghai:20261118T184500
@@ -246,7 +246,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261118-934c96415a@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261118T190000
 DTEND;TZID=Asia/Shanghai:20261118T194500
@@ -274,7 +274,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261119-342f9e4bf0@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261119T030000
 DTEND;TZID=Asia/Shanghai:20261119T033000
@@ -304,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261119-def98b64f3@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261119T193000
 DTEND;TZID=Asia/Shanghai:20261119T201500
@@ -335,7 +335,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261119-af8e84b4a1@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261119T210000
 DTEND;TZID=Asia/Shanghai:20261119T214500
@@ -365,7 +365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261119-0051086d8d@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261119T223000
 DTEND;TZID=Asia/Shanghai:20261119T230000
@@ -403,7 +403,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261120-5f0265acd8@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261120T091500
 DTEND;TZID=Asia/Shanghai:20261120T094500
@@ -431,7 +431,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261124-ac4509319e@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261124T180000
 DTEND;TZID=Asia/Shanghai:20261124T184500
@@ -464,7 +464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261125-72d74704c2@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261125T213000
 DTEND;TZID=Asia/Shanghai:20261125T220000
@@ -494,7 +494,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261125-d9114a5118@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261125T213100
 DTEND;TZID=Asia/Shanghai:20261125T220100
@@ -523,7 +523,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261130-3c16ce904c@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261130T093000
 DTEND;TZID=Asia/Shanghai:20261130T100000
@@ -551,7 +551,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261201-e0cad8064e@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261201T230000
 DTEND;TZID=Asia/Shanghai:20261201T233000
@@ -578,7 +578,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261201-dba9ce4ed1@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261201T230200
 DTEND;TZID=Asia/Shanghai:20261201T233200
@@ -605,7 +605,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261203-567ff91f15@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261203T050000
 DTEND;TZID=Asia/Shanghai:20261203T054500
@@ -632,7 +632,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261203-237bd48682@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261203T230000
 DTEND;TZID=Asia/Shanghai:20261203T233000
@@ -659,7 +659,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261204-a91157a3df@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261204T213000
 DTEND;TZID=Asia/Shanghai:20261204T220000
@@ -687,7 +687,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261209-cf1e4cb679@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261209T093000
 DTEND;TZID=Asia/Shanghai:20261209T100000
@@ -716,7 +716,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261209-423a49213a@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261209T093100
 DTEND;TZID=Asia/Shanghai:20261209T100100
@@ -743,7 +743,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261210-b38f18e314@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261210T030000
 DTEND;TZID=Asia/Shanghai:20261210T033000
@@ -776,7 +776,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261210-06051721b6@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261210T213000
 DTEND;TZID=Asia/Shanghai:20261210T220000
@@ -806,7 +806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261212-9d058f7274@weekly-econ-calendar
-DTSTAMP:20261115T011924Z
+DTSTAMP:20261116T011957Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261212T050000
 DTEND;TZID=Asia/Shanghai:20261212T054500
@@ -830,6 +830,165 @@ BEGIN:VALARM
 TRIGGER:-PT20M
 ACTION:DISPLAY
 DESCRIPTION:20分钟后：博通FY26Q4财报
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261215-48b1231a58@weekly-econ-calendar
+DTSTAMP:20261116T011957Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261215T100000
+DTEND;TZID=Asia/Shanghai:20261215T103000
+SUMMARY:中国11月经济数据
+DESCRIPTION:全称: 中国 11月 规模以上工业增加值 / 社会消
+ 费品零售总额 / 固定资产投资 / 城镇调查失业率\n重要
+ 性: ★★★★☆\n状态: 预计（统计局惯例，待日程确认
+ ）\n北京时间: 10:00（美东: —）\n前值: 10 月数据 11/16 10:
+ 00 发布（本页 day1 卡片，实际值待回填）；9 月工业增
+ 加值 +5.5%、社零 +1.1%、1–9 月固投累计 -7.2%（房地产 -20
+ .6%）、失业率 5.2%；三季度 GDP +4.5%\n预期: 未获取\n关联
+ 资产: A股（顺周期/消费/地产链）、港股、人民币\n关注
+ 点: 中央经济工作会议（惯例 12 月中旬）前最后一份月
+ 度增长数据；10 月官方 PMI 重回收缩（49.3）后，11 月读
+ 数是「内需能否止跌」的关键检验，直接影响会议政策
+ 加码预期。\n来源: 国家统计局《2026年主要统计信息发
+ 布日程表》——12 月日程以统计局公告为准，标「预计
+ 」\n— 生成自「下周经济大事日历」，一致预期仅采用
+ 彭博/Refinitiv/FactSet 口径
+LOCATION:中国
+CATEGORIES:中国资产
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：中国11月经济数据
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261215-5d887e8b48@weekly-econ-calendar
+DTSTAMP:20261116T011957Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261215T101500
+DTEND;TZID=Asia/Shanghai:20261215T104500
+SUMMARY:中国12月MLF
+DESCRIPTION:全称: 中国 12月 中期借贷便利（MLF）操作规模
+ 与中标利率\n重要性: ★★★★☆\n状态: 待确认（操作
+ 日以央行公告为准）\n北京时间: 10:15（美东: —）\n前值
+ : 11 月 MLF 于 11/16 开展（结果待回填）；1 年期 MLF 利率
+ 自 2025 年 5 月起未动（7 天逆回购政策利率 1.4%）\n预期:
+  未获取\n关联资产: A股（银行/券商）、港股、人民币、
+ 中国国债\n关注点: 12 月 MLF 续作规模与利率是 12/21 LPR 
+ 报价的定价基础；年末跨年流动性安排（7 天逆回购加
+ 量与否）同期观察。\n来源: 来源：未获取，待核实（人
+ 民银行公开市场业务交易公告；若延续本月节奏则 12/16 
+ 前后操作）\n— 生成自「下周经济大事日历」，一致预
+ 期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:政策/央行
+CATEGORIES:中国资产\,央行/政策
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：中国12月MLF
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261215-5e197d1f8f@weekly-econ-calendar
+DTSTAMP:20261116T011957Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261215T213000
+DTEND;TZID=Asia/Shanghai:20261215T220000
+SUMMARY:美国11月零售销售
+DESCRIPTION:全称: 美国 11月 零售销售（Advance Monthly Retail Sa
+ les）\n重要性: ★★★★☆\n状态: 预计（Census 惯例 12/15 
+ 前后，待公告确认）\n北京时间: 21:30（美东: 12/15 08:30（
+ 预计））\n前值: 10 月零售销售 11/17 21:30 发布（本页 day2
+  卡片，实际值待回填）；9 月环比 +0.2%\n预期: 未获取\n
+ 关联资产: 美股（消费/零售）、美债、美元\n关注点: 假
+ 日购物季开局的核心月度读数，是判断消费韧性、校准 
+ 2027 年政策路径的关键；与感恩节—圣诞季零售数据形
+ 成交叉验证。\n来源: U.S. Census Bureau 月度发布日程惯例
+ （本期具体日期未获确认，标「预计」）\n— 生成自「
+ 下周经济大事日历」，一致预期仅采用彭博/Refinitiv/FactS
+ et 口径
+LOCATION:美国
+CATEGORIES:美国
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：美国11月零售销售
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261218-6ff4a1d276@weekly-econ-calendar
+DTSTAMP:20261116T011957Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261218T103000
+DTEND;TZID=Asia/Shanghai:20261218T110000
+SUMMARY:日本央行利率决议
+DESCRIPTION:全称: 日本央行（BOJ）12月 货币政策会议决议
+ （12/17–18 会议，含展望报告）\n重要性: ★★★★☆\n
+ 状态: 预计（会议日程惯例，决议时点以 BOJ 公告为准）
+ \n北京时间: 10:30（美东: 12/18 午前 JST（预计））\n前值: 
+ 10/30 会议维持 1.25% 不变（首次承认基础通胀与 2% 目标
+ 相符）；三季度 GDP 折年率 -0.1%（时隔四个季度负增长
+ ，但设备投资 +1.6% 与内需韧性支撑加息依据）\n预期: 
+ 未获取\n关联资产: 日元、日经225、全球风险偏好、A股
+ （间接）\n关注点: 市场普遍预期加息 25bp 至 1.5%——Q3 G
+ DP 负增长未动摇共识（弱势集中于贸易与天气，内需贡
+ 献 +0.6pp）；若按兵不动将触发日元急贬与套息交易重定
+ 价。决议通常于会议末日中午前后（JST）公布＝北京约 
+ 10:30，以 BOJ 官方公告为准。\n来源: 市场预期与背景引
+ 自新华财经 2026-11-16《日本GDP走弱难改加息预期 日本央
+ 行12月窗口仍受关注》；会议日程以日本银行官网为准
+ ，标「预计」\n— 生成自「下周经济大事日历」，一致
+ 预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:全球（间接关联）
+CATEGORIES:全球\,央行/政策
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：日本央行利率决议
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:econ-20261218-6f36944f02@weekly-econ-calendar
+DTSTAMP:20261116T011957Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Shanghai:20261218T204500
+DTEND;TZID=Asia/Shanghai:20261218T211500
+SUMMARY:欧洲央行利率决议
+DESCRIPTION:全称: 欧元区 欧洲央行（ECB）12月 利率决议（1
+ 2/16–17 会议，含季度宏观预测）\n重要性: ★★★★☆\n
+ 状态: 已确认（ECB 官方日历：12/16–17 会议，决议 12/17 1
+ 3:45 CET）\n北京时间: 20:45（美东: 12/17 13:45 CET（决议））
+ \n前值: 10/29 会议维持三大利率不变（存款便利利率 2.50%
+ ）；10 月 HICP 同比 4.0%（三年高位，能源 +20.8%、核心 2.5
+ %）；市场调查预计 12 月加息 25bp 至存款利率 2.75%\n预期
+ : 未获取\n关联资产: 欧元、欧洲股市（STOXX 600）、美元
+ 指数（间接）、全球风险偏好\n关注点: 12 月为季度预测
+ 会议（对位美联储 SEP）：决议（13:45 CET＝北京 20:45）与
+ 更新后的 2027–2028 年通胀／增长预测同时公布，拉加德
+ 记者会 14:30 CET＝北京 21:30。焦点：存款利率是否上调 25
+ bp 至 2.75%，以及新预测对能源冲击「暂时性 vs 持续性」
+ 的定性。通过欧元与美欧利差对美元指数、人民币形成
+ 间接传导。\n来源: ECB《Schedules for the meetings of the Governin
+ g Council and General Council》官方日历（16/12/2026 Day 1、17/12/2
+ 026 Day 2 followed by press conference）\n— 生成自「下周经济
+ 大事日历」，一致预期仅采用彭博/Refinitiv/FactSet 口径
+LOCATION:全球（间接关联）
+CATEGORIES:全球\,央行/政策
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT20M
+ACTION:DISPLAY
+DESCRIPTION:20分钟后：欧洲央行利率决议
 END:VALARM
 END:VEVENT
 END:VCALENDAR
