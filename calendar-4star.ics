@@ -19,165 +19,8 @@ TZNAME:CST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:econ-20261119-342f9e4bf0@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Shanghai:20261119T030000
-DTEND;TZID=Asia/Shanghai:20261119T033000
-SUMMARY:美联储FOMC纪要
-DESCRIPTION:全称: 美联储 FOMC 会议纪要（10月27–28日会议
- ）\n重要性: ★★★★☆\n状态: 已确认\n北京时间: 03:00
- （美东: 11/18 14:00）\n前值: 10/28 决议维持 3.75%–4.00%（10
- –2 表决：Cook、Hammack 主张当次加息 25bp；声明将经济评
- 估由「稳健」上调为「强劲」）；9/15–16 会议纪要（10/
- 7 公布）\n预期: —\n公布值: FOMC 10/27–28 纪要（北京 11/1
- 9 03:00）：10–2 维持 3.75%–4.00%（Cook、Hammack 主张加息 25
- bp）；几乎所有与会者认为未来数月进一步加息可能是
- 适宜的，支持维持者中少数人称之为「艰难抉择」；两
- 名与会者提出若后续通胀不利、12 月可能需考虑超过 25b
- p 的一次加息；部分官员表示若能向市场明确传递进一
- 步收紧的信号可接受 10 月按兵不动。AI 建设：多数与会
- 者视 AI 相关需求为重大通胀风险（挤压供应、推高科技
- 消费品价格、压力向更广行业扩散）；工作人员警示 AI 
- 相关债务快速增长（表外租赁承诺、企业间循环融资）
- 在回报失望时可能放大损失——Williams 承认部分融资结
- 构与 2008 年前住房融资相似。会后行情：Waller 50bp 言论
- 后 2 年期收益率由约 4.80% 升至 4.84%。来源：美联储官方
- 纪要全文、新华财经 11/19\n关联资产: 美股、美债、美元
- 、黄金\n关注点: 结果已落地（显著偏鹰）：几乎所有与
- 会者认为未来数月进一步加息可能是适宜的——10 月维
- 持不变更多是时机考量而非立场转向；两名与会者提出
- 若通胀不利、12 月或需考虑一次超 25bp 的加息。Waller 会
- 后公开支持 12 月加息 50bp（10 月核心 CPI 0.3% 触发其门槛
- ）；Williams 主张审慎、无须激进。市场定价转向 12 月与
-  1 月各加 25bp、明年 4 月或再加息；纪要还系统讨论 AI 
- 建设的通胀与金融稳定风险（表外租赁承诺、循环融资
- ）。\n来源: Federal Reserve Board（federalreserve.gov/monetarypolicy
- /fomcminutes20261028.htm，11/18 14:00 ET 发布）\n— 生成自「下
- 周经济大事日历」，一致预期仅采用彭博/Refinitiv/FactSet 
- 口径
-LOCATION:政策/央行
-CATEGORIES:美国\,央行/政策
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-TRIGGER:-PT20M
-ACTION:DISPLAY
-DESCRIPTION:20分钟后：美联储FOMC纪要
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:econ-20261119-def98b64f3@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Shanghai:20261119T193000
-DTEND;TZID=Asia/Shanghai:20261119T201500
-SUMMARY:阿里FY27Q2财报
-DESCRIPTION:全称: 阿里巴巴 Alibaba（BABA / 9988.HK）FY2027 Q2 财
- 报\n重要性: ★★★★☆\n状态: 已确认（港交所 11/6 公
- 告：11/19 公布业绩）\n北京时间: 19:30（美东: 11/19 早间
- （公司惯例于美股盘前发布））\n前值: FY2027 Q1（截至 6 
- 月）：营收 2690 亿元、净利 105 亿元、EPS 0.4632 元（公司
-  8/20 公布）\n预期: 未获取\n关联资产: 港股科技、中概
- 互联、A股AI算力链、纳斯达克\n关注点: 云与 AI 基础设
- 施资本开支、电商 GMV 与即时零售（淘宝闪购）补贴强
- 度是三大看点；董事会 11/18 审议、11/19 公布业绩（港交
- 所公告已确认），与腾讯（11/18）、京东同周，构成中
- 概 Q3 财报三连。\n来源: 阿里巴巴集团《董事会会议召
- 开日期》公告（港交所披露易 2026-11-06：董事会 11/18 审
- 议，11/19 公布业绩）\n— 生成自「下周经济大事日历」
- ，一致预期仅采用彭博/Refinitiv/FactSet 口径
-LOCATION:美股
-CATEGORIES:中国资产\,财报
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-TRIGGER:-PT20M
-ACTION:DISPLAY
-DESCRIPTION:20分钟后：阿里FY27Q2财报
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:econ-20261119-af8e84b4a1@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Shanghai:20261119T210000
-DTEND;TZID=Asia/Shanghai:20261119T214500
-SUMMARY:沃尔玛FY27Q3财报
-DESCRIPTION:全称: 沃尔玛 Walmart（WMT）FY2027 Q3 财报\n重要性
- : ★★★★★\n状态: 已确认\n北京时间: 21:00（美东: 11/19
-  07:00 CT / 08:00 ET 盘前）\n前值: FY2027 Q2（截至 7 月）：营
- 收与调整后 EPS（公司 8/20 公布）\n预期: 未获取\n关联资
- 产: 道琼斯指数、标普500必需消费、美股零售（同业对
- 照）\n关注点: 季度内最受关注的美国消费读数：营收约
-  $1800 亿级、触达约 90% 美国消费者。关注点：① 美国同
- 店销售与客单价/交易量结构；② 电商、广告、会员等
- 高毛利业务增速；③ 全年营收与调整后 EPS 指引（财报
- 周整体消费信号的定调者）。\n来源: Walmart 企业新闻「F
- Y2027 Q3 Earnings Release」（明确 11/19，材料约 06:00 CT、电话
- 会 07:00 CT）\n— 生成自「下周经济大事日历」，一致预
- 期仅采用彭博/Refinitiv/FactSet 口径
-LOCATION:美股
-CATEGORIES:美国\,财报
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-TRIGGER:-PT20M
-ACTION:DISPLAY
-DESCRIPTION:20分钟后：沃尔玛FY27Q3财报
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:econ-20261119-0051086d8d@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Shanghai:20261119T223000
-DTEND;TZID=Asia/Shanghai:20261119T230000
-SUMMARY:Anthropic上市
-DESCRIPTION:全称: Anthropic（ANT）纳斯达克 IPO 首日交易（史
- 上最大 IPO）\n重要性: ★★★★☆\n状态: 已确认（纳斯
- 达克 11/11 公告：11/19 上市）\n北京时间: 22:30（美东: 11/1
- 9 09:30 ET 开盘）\n前值: —（发行区间 70–78 美元／股、8
- .25 亿股，基础募资最高 644 亿美元；叠加 260 亿美元私
- 募合计约 904 亿；完全摊薄估值上限约 1.4 万亿美元）\n
- 预期: 原区间 $70–78/股、8.25 亿股（基础募资最高 643.5 
- 亿）；实际定价 $83（超区间上限 6.4%）、发行上调至 9.8
-  亿股、募资约 813 亿美元（史上最大 IPO，超 SpaceX 750 亿
- 纪录），完全稀释估值约 1.5 万亿美元\n公布值: 11/18 收
- 盘后定价结果：每股 83 美元（高于 70–78 区间上限约 6.
- 4%）、A 类股由 8.25 亿上调至 9.8 亿股，基础发行募资约 
- 813 亿美元（公司部分约 793.8 亿＋老股 19.6 亿），超 Spac
- eX 6 月 750 亿纪录、成为史上最大 IPO；完全稀释估值约 1
- .5 万亿美元。认购订单接近可售股数 7 倍；另有 260 亿
- 美元私募配售（亚马逊/博通/英伟达/谷歌等参与）。最
- 新披露：年化收入运行率约 810 亿美元（较 9/30 增加约 1
- 00 亿）；Q3 营业亏损 5.67 亿（环比收窄）。来源：央视
- 财经/澎湃新闻/路透 11/19\n关联资产: 纳斯达克、AI 板块
- （英伟达/谷歌/AMD）、美股流动性、A股 AI 应用链\n关注
- 点: AI 估值信仰的公开投票，同时抽离二级市场流动性
- ：Q3 营收 169.56 亿美元（环比 +47%、同比约 +1\,127%）、算
- 力采购承诺约 9\,009 亿美元（2030 年底前约 4\,516 亿）—
- —收入高增与长期承诺的匹配度是定价核心。最终定价 
- $83 高于区间上限，认购订单接近可售股数 7 倍；同步 26
- 0 亿美元私募（谷歌、英伟达、微软、AMD、博通、台积
- 电、美光等，无锁定期）。首日走势对英伟达财报后的 
- AI 板块情绪形成二次检验。\n来源: Nasdaq Trader《Data Techni
- cal News #2026-28》；公司公告与承销团口径\n— 生成自「
- 下周经济大事日历」，一致预期仅采用彭博/Refinitiv/FactS
- et 口径
-LOCATION:美国
-CATEGORIES:美国\,财报
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-TRIGGER:-PT20M
-ACTION:DISPLAY
-DESCRIPTION:20分钟后：Anthropic上市
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:econ-20261120-5f0265acd8@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261120T091500
 DTEND;TZID=Asia/Shanghai:20261120T094500
@@ -185,14 +28,20 @@ SUMMARY:中国11月LPR
 DESCRIPTION:全称: 中国 11月 贷款市场报价利率（LPR）\n重
  要性: ★★★★☆\n状态: 已确认（公布日）\n北京时间: 
  09:15（美东: —）\n前值: 1年期 3.0%、5年期以上 3.5%（2026-
- 10-20 报价，已连续多月不变）\n预期: 未获取\n关联资产:
-  A股（银行/地产）、港股内房、人民币、中国国债\n关
- 注点: 11/16 MLF 操作利率若维持不变，则当月 LPR 报价基
- 础未变；5 年期以上 LPR 单独下调将被读作定向稳地产信
- 号，是本窗口最后一个中国政策利率读数。\n来源: 中国
- 货币网（全国银行间同业拆借中心）LPR 月度报价公告（
- 每月 20 日 09:15）\n— 生成自「下周经济大事日历」，一
- 致预期仅采用彭博/Refinitiv/FactSet 口径
+ 10-20 报价，已连续多月不变）\n预期: 未获取\n公布值: 11
+  月 LPR：1 年期 3.0%、5 年期以上 3.5%，均与上月持平——
+ 连续 18 个月不变（上次调整为 2025 年 5 月）。背景：11/
+ 2 起隔夜逆回购改每日操作、1.25% 成为主要政策利率锚
+ ；Q3 货政报告推动贷款定价基准多元化（挂钩 DR001 浮息
+ 贷款）；市场关注 12 月中央经济工作会议后调整可能。
+ 来源：人民银行授权全国银行间同业拆借中心公告 11/20\
+ n关联资产: A股（银行/地产）、港股内房、人民币、中
+ 国国债\n关注点: 11/16 MLF 操作利率若维持不变，则当月 L
+ PR 报价基础未变；5 年期以上 LPR 单独下调将被读作定向
+ 稳地产信号，是本窗口最后一个中国政策利率读数。\n
+ 来源: 中国货币网（全国银行间同业拆借中心）LPR 月度
+ 报价公告（每月 20 日 09:15）\n— 生成自「下周经济大事
+ 日历」，一致预期仅采用彭博/Refinitiv/FactSet 口径
 LOCATION:政策/央行
 CATEGORIES:中国资产\,央行/政策
 STATUS:CONFIRMED
@@ -205,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261124-ac4509319e@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261124T180000
 DTEND;TZID=Asia/Shanghai:20261124T184500
@@ -238,7 +87,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261125-72d74704c2@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261125T213000
 DTEND;TZID=Asia/Shanghai:20261125T220000
@@ -268,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261125-d9114a5118@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261125T213100
 DTEND;TZID=Asia/Shanghai:20261125T220100
@@ -297,7 +146,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261130-3c16ce904c@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261130T093000
 DTEND;TZID=Asia/Shanghai:20261130T100000
@@ -325,7 +174,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261201-e0cad8064e@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261201T230000
 DTEND;TZID=Asia/Shanghai:20261201T233000
@@ -352,7 +201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261201-dba9ce4ed1@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261201T230200
 DTEND;TZID=Asia/Shanghai:20261201T233200
@@ -379,7 +228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261203-567ff91f15@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261203T050000
 DTEND;TZID=Asia/Shanghai:20261203T054500
@@ -406,7 +255,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261203-237bd48682@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261203T230000
 DTEND;TZID=Asia/Shanghai:20261203T233000
@@ -433,7 +282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261204-a91157a3df@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261204T213000
 DTEND;TZID=Asia/Shanghai:20261204T220000
@@ -461,7 +310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261209-cf1e4cb679@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261209T093000
 DTEND;TZID=Asia/Shanghai:20261209T100000
@@ -490,7 +339,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261209-423a49213a@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261209T093100
 DTEND;TZID=Asia/Shanghai:20261209T100100
@@ -517,7 +366,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261210-b38f18e314@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261210T030000
 DTEND;TZID=Asia/Shanghai:20261210T033000
@@ -550,7 +399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261210-06051721b6@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261210T213000
 DTEND;TZID=Asia/Shanghai:20261210T220000
@@ -580,7 +429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261212-9d058f7274@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261212T050000
 DTEND;TZID=Asia/Shanghai:20261212T054500
@@ -608,7 +457,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261215-48b1231a58@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261215T100000
 DTEND;TZID=Asia/Shanghai:20261215T103000
@@ -640,7 +489,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261215-5d887e8b48@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261215T101500
 DTEND;TZID=Asia/Shanghai:20261215T104500
@@ -670,7 +519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261215-5e197d1f8f@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261215T213000
 DTEND;TZID=Asia/Shanghai:20261215T220000
@@ -699,7 +548,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261218-6ff4a1d276@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261218T103000
 DTEND;TZID=Asia/Shanghai:20261218T110000
@@ -733,7 +582,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261218-6f36944f02@weekly-econ-calendar
-DTSTAMP:20261119T044050Z
+DTSTAMP:20261120T054054Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261218T204500
 DTEND;TZID=Asia/Shanghai:20261218T211500
