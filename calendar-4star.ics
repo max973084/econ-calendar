@@ -19,42 +19,8 @@ TZNAME:CST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:econ-20261120-5f0265acd8@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Shanghai:20261120T091500
-DTEND;TZID=Asia/Shanghai:20261120T094500
-SUMMARY:中国11月LPR
-DESCRIPTION:全称: 中国 11月 贷款市场报价利率（LPR）\n重
- 要性: ★★★★☆\n状态: 已确认（公布日）\n北京时间: 
- 09:15（美东: —）\n前值: 1年期 3.0%、5年期以上 3.5%（2026-
- 10-20 报价，已连续多月不变）\n预期: 未获取\n公布值: 11
-  月 LPR：1 年期 3.0%、5 年期以上 3.5%，均与上月持平——
- 连续 18 个月不变（上次调整为 2025 年 5 月）。背景：11/
- 2 起隔夜逆回购改每日操作、1.25% 成为主要政策利率锚
- ；Q3 货政报告推动贷款定价基准多元化（挂钩 DR001 浮息
- 贷款）；市场关注 12 月中央经济工作会议后调整可能。
- 来源：人民银行授权全国银行间同业拆借中心公告 11/20\
- n关联资产: A股（银行/地产）、港股内房、人民币、中
- 国国债\n关注点: 11/16 MLF 操作利率若维持不变，则当月 L
- PR 报价基础未变；5 年期以上 LPR 单独下调将被读作定向
- 稳地产信号，是本窗口最后一个中国政策利率读数。\n
- 来源: 中国货币网（全国银行间同业拆借中心）LPR 月度
- 报价公告（每月 20 日 09:15）\n— 生成自「下周经济大事
- 日历」，一致预期仅采用彭博/Refinitiv/FactSet 口径
-LOCATION:政策/央行
-CATEGORIES:中国资产\,央行/政策
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-TRIGGER:-PT20M
-ACTION:DISPLAY
-DESCRIPTION:20分钟后：中国11月LPR
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:econ-20261124-ac4509319e@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261124T180000
 DTEND;TZID=Asia/Shanghai:20261124T184500
@@ -87,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261125-72d74704c2@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261125T213000
 DTEND;TZID=Asia/Shanghai:20261125T220000
@@ -96,15 +62,16 @@ DESCRIPTION:全称: 美国 Q3 2026 GDP 二次估算（Second Estimate）
  ＋ 企业利润\n重要性: ★★★★☆\n状态: 已确认\n北京
  时间: 21:30（美东: 11/25 08:30）\n前值: Q3 初值折年 +3.4%（1
  0/29 公布，预期 3.1–3.2%，Q2 +2.2%）；Q1 二次估算 +1.6%\n
- 预期: 未获取\n关联资产: 美股、美债、美元、黄金\n关
- 注点: 对 10/29 初值的修正通常有限（平均 0.3–0.5 个百
- 分点），但若与同日 PCE 组合出「增长下修＋通胀上修
- 」的滞胀组合，将对 12/8–9 FOMC 定价产生方向性影响。B
- EA 官方日程确认 11/25 08:30 ET（感恩节前周三）。\n来源: 
- U.S. BEA Release Schedule（bea.gov：GDP (Second Estimate) and Corporate
-  Profits\, 3rd Quarter 2026，11/25 08:30 AM）\n— 生成自「下周
- 经济大事日历」，一致预期仅采用彭博/Refinitiv/FactSet 口
- 径
+ 预期: 折年率 +3.5%（第三方汇总口径，非彭博／Refinitiv 
+ 原始值；初值 +3.4%）\n关联资产: 美股、美债、美元、黄
+ 金\n关注点: 对 10/29 初值的修正通常有限（平均 0.3–0.5 
+ 个百分点），但若与同日 PCE 组合出「增长下修＋通胀
+ 上修」的滞胀组合，将对 12/8–9 FOMC 定价产生方向性影
+ 响。BEA 官方日程确认 11/25 08:30 ET（感恩节前周三）。\n
+ 来源: U.S. BEA Release Schedule（bea.gov：GDP (Second Estimate) and C
+ orporate Profits\, 3rd Quarter 2026，11/25 08:30 AM）\n— 生成自「
+ 下周经济大事日历」，一致预期仅采用彭博/Refinitiv/FactS
+ et 口径
 LOCATION:美国
 CATEGORIES:美国
 STATUS:CONFIRMED
@@ -117,7 +84,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261125-d9114a5118@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261125T213100
 DTEND;TZID=Asia/Shanghai:20261125T220100
@@ -126,14 +93,16 @@ DESCRIPTION:全称: 美国 10月 PCE 物价指数（含核心 PCE）＋
  个人收入与支出\n重要性: ★★★★★\n状态: 已确认\n北
  京时间: 21:31（美东: 11/25 08:31）\n前值: 9月 整体 PCE 同比
   +3.6%、核心 PCE 同比 +3.1%（BEA 10/29 公布）；8月 核心 PCE 
- 同比 +3.0%\n预期: 未获取\n关联资产: 美股、美债、美元
- 、黄金\n关注点: 美联储 2% 目标所锚定的通胀口径，12/8
- –9 FOMC（含点阵图）前最后一份月度通胀读数。感恩节
- 前最后一个完整交易日发布，午后流动性收敛，预期差
- 易被放大。BEA 官方日程确认 11/25 08:30 ET。\n来源: U.S. BEA
-  Release Schedule（bea.gov：Personal Income and Outlays\, October 2026
- ，11/25 08:30 AM）\n— 生成自「下周经济大事日历」，一
- 致预期仅采用彭博/Refinitiv/FactSet 口径
+ 同比 +3.0%\n预期: 整体环比 +0.3%、核心环比 +0.3%（第三方
+ 汇总口径，非彭博／Refinitiv 原始值；9 月整体 +0.5%）；
+ 个人支出 +0.4%、个人收入 +0.3%\n关联资产: 美股、美债、
+ 美元、黄金\n关注点: 美联储 2% 目标所锚定的通胀口径
+ ，12/8–9 FOMC（含点阵图）前最后一份月度通胀读数。感
+ 恩节前最后一个完整交易日发布，午后流动性收敛，预
+ 期差易被放大。BEA 官方日程确认 11/25 08:30 ET。\n来源: U.
+ S. BEA Release Schedule（bea.gov：Personal Income and Outlays\, October
+  2026，11/25 08:30 AM）\n— 生成自「下周经济大事日历」，
+ 一致预期仅采用彭博/Refinitiv/FactSet 口径
 LOCATION:美国
 CATEGORIES:美国
 STATUS:CONFIRMED
@@ -146,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261130-3c16ce904c@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261130T093000
 DTEND;TZID=Asia/Shanghai:20261130T100000
@@ -174,7 +143,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261201-e0cad8064e@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261201T230000
 DTEND;TZID=Asia/Shanghai:20261201T233000
@@ -201,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261201-dba9ce4ed1@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261201T230200
 DTEND;TZID=Asia/Shanghai:20261201T233200
@@ -228,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261203-567ff91f15@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261203T050000
 DTEND;TZID=Asia/Shanghai:20261203T054500
@@ -255,7 +224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261203-237bd48682@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261203T230000
 DTEND;TZID=Asia/Shanghai:20261203T233000
@@ -282,7 +251,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261204-a91157a3df@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261204T213000
 DTEND;TZID=Asia/Shanghai:20261204T220000
@@ -310,7 +279,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261209-cf1e4cb679@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261209T093000
 DTEND;TZID=Asia/Shanghai:20261209T100000
@@ -339,7 +308,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261209-423a49213a@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261209T093100
 DTEND;TZID=Asia/Shanghai:20261209T100100
@@ -366,7 +335,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261210-b38f18e314@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261210T030000
 DTEND;TZID=Asia/Shanghai:20261210T033000
@@ -376,17 +345,18 @@ DESCRIPTION:全称: 美联储 FOMC 利率决议（12月8–9日会议，
  ralreserve.gov 官方日历）\n北京时间: 03:00（美东: 12/9 14:00
  ）\n前值: 当前联邦基金利率 3.75%–4.00%（9/16 加息 25bp、
  10/28 维持不变，10–2 表决、Cook/Hammack 主张加息）；会
- 后 12 月加息 25bp 定价 93.7%、加息 50bp 定价 6.3%（CME FedWat
- ch，11/12 读数）\n预期: —\n关联资产: 美股、美债、美元
- 、黄金\n关注点: 本窗口收官段最大事件：① 是否加息 2
- 5bp；② 点阵图与 SEP 对 2027 年利率路径的中值；③ 声明
- 与记者会（14:30 ET＝北京 03:30）对通胀「更高更久」的
- 表述。会前最后输入：11/25 10 月 PCE 与 12/4 11 月非农；
- 决议次日晚间 21:30 即公布 11 月 CPI，构成 24 小时「政策
- ＋通胀」双落地。\n来源: Federal Reserve Board 官方日历（fe
- deralreserve.gov/monetarypolicy/fomccalendars.htm：FOMC meeting December
-  8–9）\n— 生成自「下周经济大事日历」，一致预期仅
- 采用彭博/Refinitiv/FactSet 口径
+ 后 12 月加息 25bp 定价约 90%、50bp 约 8%（11/19–11/20 期货
+ 定价：11/18 纪要偏鹰一度推升 50bp 概率，11/19 初请续请
+ 跳增 7 万后回落）\n预期: —\n关联资产: 美股、美债、
+ 美元、黄金\n关注点: 本窗口收官段最大事件：① 是否
+ 加息 25bp；② 点阵图与 SEP 对 2027 年利率路径的中值；
+ ③ 声明与记者会（14:30 ET＝北京 03:30）对通胀「更高更
+ 久」的表述。会前最后输入：11/25 10 月 PCE 与 12/4 11 月
+ 非农；决议次日晚间 21:30 即公布 11 月 CPI，构成 24 小时
+ 「政策＋通胀」双落地。\n来源: Federal Reserve Board 官方
+ 日历（federalreserve.gov/monetarypolicy/fomccalendars.htm：FOMC meeti
+ ng December 8–9）\n— 生成自「下周经济大事日历」，一
+ 致预期仅采用彭博/Refinitiv/FactSet 口径
 LOCATION:政策/央行
 CATEGORIES:美国\,央行/政策
 STATUS:CONFIRMED
@@ -399,7 +369,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261210-06051721b6@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261210T213000
 DTEND;TZID=Asia/Shanghai:20261210T220000
@@ -429,7 +399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261212-9d058f7274@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261212T050000
 DTEND;TZID=Asia/Shanghai:20261212T054500
@@ -457,7 +427,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261215-48b1231a58@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261215T100000
 DTEND;TZID=Asia/Shanghai:20261215T103000
@@ -489,7 +459,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261215-5d887e8b48@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261215T101500
 DTEND;TZID=Asia/Shanghai:20261215T104500
@@ -519,7 +489,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261215-5e197d1f8f@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261215T213000
 DTEND;TZID=Asia/Shanghai:20261215T220000
@@ -548,7 +518,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261218-6ff4a1d276@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261218T103000
 DTEND;TZID=Asia/Shanghai:20261218T110000
@@ -559,17 +529,18 @@ DESCRIPTION:全称: 日本央行（BOJ）12月 货币政策会议决议
  \n北京时间: 10:30（美东: 12/18 午前 JST（预计））\n前值: 
  10/30 会议维持 1.25% 不变（首次承认基础通胀与 2% 目标
  相符）；三季度 GDP 折年率 -0.1%（时隔四个季度负增长
- ，但设备投资 +1.6% 与内需韧性支撑加息依据）\n预期: 
- 未获取\n关联资产: 日元、日经225、全球风险偏好、A股
- （间接）\n关注点: 市场普遍预期加息 25bp 至 1.5%——Q3 G
- DP 负增长未动摇共识（弱势集中于贸易与天气，内需贡
- 献 +0.6pp）；若按兵不动将触发日元急贬与套息交易重定
- 价。决议通常于会议末日中午前后（JST）公布＝北京约 
- 10:30，以 BOJ 官方公告为准。\n来源: 市场预期与背景引
- 自新华财经 2026-11-16《日本GDP走弱难改加息预期 日本央
- 行12月窗口仍受关注》；会议日程以日本银行官网为准
- ，标「预计」\n— 生成自「下周经济大事日历」，一致
- 预期仅采用彭博/Refinitiv/FactSet 口径
+ ，但设备投资 +1.6% 与内需韧性支撑加息依据）；11/20 日
+ 本 10 月核心 CPI 2.2% 后，市场对 12/18 加息概率升至约 86%
+ \n预期: 未获取\n关联资产: 日元、日经225、全球风险偏
+ 好、A股（间接）\n关注点: 市场普遍预期加息 25bp 至 1.5%
+ ——Q3 GDP 负增长未动摇共识（弱势集中于贸易与天气，
+ 内需贡献 +0.6pp）；若按兵不动将触发日元急贬与套息交
+ 易重定价。决议通常于会议末日中午前后（JST）公布＝
+ 北京约 10:30，以 BOJ 官方公告为准。\n来源: 市场预期与
+ 背景引自新华财经 2026-11-16《日本GDP走弱难改加息预期 
+ 日本央行12月窗口仍受关注》；会议日程以日本银行官
+ 网为准，标「预计」\n— 生成自「下周经济大事日历」
+ ，一致预期仅采用彭博/Refinitiv/FactSet 口径
 LOCATION:全球（间接关联）
 CATEGORIES:全球\,央行/政策
 STATUS:CONFIRMED
@@ -582,7 +553,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261218-6f36944f02@weekly-econ-calendar
-DTSTAMP:20261120T054054Z
+DTSTAMP:20261121T052626Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261218T204500
 DTEND;TZID=Asia/Shanghai:20261218T211500
