@@ -19,70 +19,8 @@ TZNAME:CST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:econ-20261125-72d74704c2@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Shanghai:20261125T213000
-DTEND;TZID=Asia/Shanghai:20261125T220000
-SUMMARY:美国Q3 GDP二次估算
-DESCRIPTION:全称: 美国 Q3 2026 GDP 二次估算（Second Estimate）
- ＋ 企业利润\n重要性: ★★★★☆\n状态: 已确认\n北京
- 时间: 21:30（美东: 11/25 08:30）\n前值: Q3 初值折年 +3.4%（1
- 0/29 公布，预期 3.1–3.2%，Q2 +2.2%）；Q1 二次估算 +1.6%\n
- 预期: 折年率 +3.5%（第三方汇总口径，非彭博／Refinitiv 
- 原始值；初值 +3.4%）\n关联资产: 美股、美债、美元、黄
- 金\n关注点: 对 10/29 初值的修正通常有限（平均 0.3–0.5 
- 个百分点），但若与同日 PCE 组合出「增长下修＋通胀
- 上修」的滞胀组合，将对 12/8–9 FOMC 定价产生方向性影
- 响。BEA 官方日程确认 11/25 08:30 ET（感恩节前周三）。\n
- 来源: U.S. BEA Release Schedule（bea.gov：GDP (Second Estimate) and C
- orporate Profits\, 3rd Quarter 2026，11/25 08:30 AM）\n— 生成自「
- 下周经济大事日历」，一致预期仅采用彭博/Refinitiv/FactS
- et 口径
-LOCATION:美国
-CATEGORIES:美国
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-TRIGGER:-PT20M
-ACTION:DISPLAY
-DESCRIPTION:20分钟后：美国Q3 GDP二次估算
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:econ-20261125-d9114a5118@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Shanghai:20261125T213100
-DTEND;TZID=Asia/Shanghai:20261125T220100
-SUMMARY:美国10月PCE
-DESCRIPTION:全称: 美国 10月 PCE 物价指数（含核心 PCE）＋ 
- 个人收入与支出\n重要性: ★★★★★\n状态: 已确认\n北
- 京时间: 21:31（美东: 11/25 08:31）\n前值: 9月 整体 PCE 同比
-  +3.6%、核心 PCE 同比 +3.1%（BEA 10/29 公布）；8月 核心 PCE 
- 同比 +3.0%\n预期: 整体环比 +0.3%、核心环比 +0.3%（第三方
- 汇总口径，非彭博／Refinitiv 原始值；9 月整体 +0.5%）；
- 个人支出 +0.4%、个人收入 +0.3%\n关联资产: 美股、美债、
- 美元、黄金\n关注点: 美联储 2% 目标所锚定的通胀口径
- ，12/8–9 FOMC（含点阵图）前最后一份月度通胀读数。感
- 恩节前最后一个完整交易日发布，午后流动性收敛，预
- 期差易被放大。BEA 官方日程确认 11/25 08:30 ET。\n来源: U.
- S. BEA Release Schedule（bea.gov：Personal Income and Outlays\, October
-  2026，11/25 08:30 AM）\n— 生成自「下周经济大事日历」，
- 一致预期仅采用彭博/Refinitiv/FactSet 口径
-LOCATION:美国
-CATEGORIES:美国
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-TRIGGER:-PT20M
-ACTION:DISPLAY
-DESCRIPTION:20分钟后：美国10月PCE
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:econ-20261130-3c16ce904c@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261130T093000
 DTEND;TZID=Asia/Shanghai:20261130T100000
@@ -110,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261201-e0cad8064e@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261201T230000
 DTEND;TZID=Asia/Shanghai:20261201T233000
@@ -137,7 +75,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261201-dba9ce4ed1@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261201T230200
 DTEND;TZID=Asia/Shanghai:20261201T233200
@@ -164,7 +102,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261203-567ff91f15@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261203T050000
 DTEND;TZID=Asia/Shanghai:20261203T054500
@@ -191,7 +129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261203-237bd48682@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261203T230000
 DTEND;TZID=Asia/Shanghai:20261203T233000
@@ -218,7 +156,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261204-a91157a3df@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261204T213000
 DTEND;TZID=Asia/Shanghai:20261204T220000
@@ -246,14 +184,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261209-cf1e4cb679@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261209T093000
 DTEND;TZID=Asia/Shanghai:20261209T100000
 SUMMARY:中国11月CPI
 DESCRIPTION:全称: 中国 11月 CPI（居民消费价格指数）\n重
  要性: ★★★★☆\n状态: 预计\n北京时间: 09:30（美东: 
- —）\n前值: 10 月 同比（11/9 09:30 发布，实际值待回填）
+ —）\n前值: 10 月 同比 +0.7%（涨幅回落 0.2pp，11/9 公布）
  ；9月 +0.9%、核心 +1.0%（统计局 10/14 公布）\n预期: 未获
  取\n关联资产: A股、港股、人民币、债市\n关注点: 统计
  局惯例于每月 9 日前后发布（本期具体日期以 2026 年发
@@ -275,21 +213,21 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261209-423a49213a@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261209T093100
 DTEND;TZID=Asia/Shanghai:20261209T100100
 SUMMARY:中国11月PPI
 DESCRIPTION:全称: 中国 11月 PPI（工业生产者出厂价格指数
  ）\n重要性: ★★★★☆\n状态: 预计\n北京时间: 09:31（
- 美东: —）\n前值: 10 月 同比（11/9 发布，待回填）；9月
-  +5.0%（2022 年 7 月以来新高）、环比 +1.2%（统计局 10/14 
- 公布）\n预期: 未获取\n关联资产: A股、工业品、人民币\
- n关注点: 与 CPI 同日 09:30 发布；「上游强、终端弱」的
- 剪刀差走向是周期股与工业品定价核心。\n来源: 国家统
- 计局《2026年主要统计信息发布日程表》——标「预计」
- \n— 生成自「下周经济大事日历」，一致预期仅采用彭
- 博/Refinitiv/FactSet 口径
+ 美东: —）\n前值: 10 月 同比 +5.7%（涨幅扩大 0.7pp、2022/7
+  以来新高，11/9 公布）；9月 +5.0%、环比 +1.2%（统计局 10
+ /14 公布）\n预期: 未获取\n关联资产: A股、工业品、人民
+ 币\n关注点: 与 CPI 同日 09:30 发布；「上游强、终端弱」
+ 的剪刀差走向是周期股与工业品定价核心。\n来源: 国家
+ 统计局《2026年主要统计信息发布日程表》——标「预计
+ 」\n— 生成自「下周经济大事日历」，一致预期仅采用
+ 彭博/Refinitiv/FactSet 口径
 LOCATION:中国
 CATEGORIES:中国资产
 STATUS:CONFIRMED
@@ -302,7 +240,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261210-b38f18e314@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261210T030000
 DTEND;TZID=Asia/Shanghai:20261210T033000
@@ -311,19 +249,18 @@ DESCRIPTION:全称: 美联储 FOMC 利率决议（12月8–9日会议，
  含点阵图 SEP）\n重要性: ★★★★★\n状态: 已确认（fede
  ralreserve.gov 官方日历）\n北京时间: 03:00（美东: 12/9 14:00
  ）\n前值: 当前联邦基金利率 3.75%–4.00%（9/16 加息 25bp、
- 10/28 维持不变，10–2 表决、Cook/Hammack 主张加息）；会
- 后 12 月加息 25bp 定价约 90%、50bp 约 8%（11/19–11/20 期货
- 定价：11/18 纪要偏鹰一度推升 50bp 概率，11/19 初请续请
- 跳增 7 万后回落）\n预期: —\n关联资产: 美股、美债、
- 美元、黄金\n关注点: 本窗口收官段最大事件：① 是否
- 加息 25bp；② 点阵图与 SEP 对 2027 年利率路径的中值；
- ③ 声明与记者会（14:30 ET＝北京 03:30）对通胀「更高更
- 久」的表述。会前最后输入：11/25 10 月 PCE 与 12/4 11 月
- 非农；决议次日晚间 21:30 即公布 11 月 CPI，构成 24 小时
- 「政策＋通胀」双落地。\n来源: Federal Reserve Board 官方
- 日历（federalreserve.gov/monetarypolicy/fomccalendars.htm：FOMC meeti
- ng December 8–9）\n— 生成自「下周经济大事日历」，一
- 致预期仅采用彭博/Refinitiv/FactSet 口径
+ 10/28 维持不变，10–2 表决、Cook/Hammack 主张加息）；11/25
+  核心 PCE 3.3%（三年最高）落地后，12 月加息 25bp 定价升
+ 至约 97.8%、50bp 出清（CME FedWatch 11/25）\n预期: —\n关联
+ 资产: 美股、美债、美元、黄金\n关注点: 本窗口收官段
+ 最大事件：① 是否加息 25bp；② 点阵图与 SEP 对 2027 年
+ 利率路径的中值；③ 声明与记者会（14:30 ET＝北京 03:30
+ ）对通胀「更高更久」的表述。会前最后输入：11/25 10 
+ 月 PCE 与 12/4 11 月非农；决议次日晚间 21:30 即公布 11 月
+  CPI，构成 24 小时「政策＋通胀」双落地。\n来源: Federal
+  Reserve Board 官方日历（federalreserve.gov/monetarypolicy/fomccalen
+ dars.htm：FOMC meeting December 8–9）\n— 生成自「下周经济
+ 大事日历」，一致预期仅采用彭博/Refinitiv/FactSet 口径
 LOCATION:政策/央行
 CATEGORIES:美国\,央行/政策
 STATUS:CONFIRMED
@@ -336,7 +273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261210-06051721b6@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261210T213000
 DTEND;TZID=Asia/Shanghai:20261210T220000
@@ -366,7 +303,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261212-9d058f7274@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261212T050000
 DTEND;TZID=Asia/Shanghai:20261212T054500
@@ -394,7 +331,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261215-48b1231a58@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261215T100000
 DTEND;TZID=Asia/Shanghai:20261215T103000
@@ -402,18 +339,17 @@ SUMMARY:中国11月经济数据
 DESCRIPTION:全称: 中国 11月 规模以上工业增加值 / 社会消
  费品零售总额 / 固定资产投资 / 城镇调查失业率\n重要
  性: ★★★★☆\n状态: 预计（统计局惯例，待日程确认
- ）\n北京时间: 10:00（美东: —）\n前值: 10 月数据 11/16 10:
- 00 发布（本页 day1 卡片，实际值待回填）；9 月工业增
- 加值 +5.5%、社零 +1.1%、1–9 月固投累计 -7.2%（房地产 -20
- .6%）、失业率 5.2%；三季度 GDP +4.5%\n预期: 未获取\n关联
- 资产: A股（顺周期/消费/地产链）、港股、人民币\n关注
- 点: 中央经济工作会议（惯例 12 月中旬）前最后一份月
- 度增长数据；10 月官方 PMI 重回收缩（49.3）后，11 月读
- 数是「内需能否止跌」的关键检验，直接影响会议政策
- 加码预期。\n来源: 国家统计局《2026年主要统计信息发
- 布日程表》——12 月日程以统计局公告为准，标「预计
- 」\n— 生成自「下周经济大事日历」，一致预期仅采用
- 彭博/Refinitiv/FactSet 口径
+ ）\n北京时间: 10:00（美东: —）\n前值: 10 月（11/16 公布
+ ）：工业增加值 +4.8%、社零 +0.4%、1–10 月固投 -8.1%、失
+ 业率 5.1%；三季度 GDP +4.5%\n预期: 未获取\n关联资产: A股
+ （顺周期/消费/地产链）、港股、人民币\n关注点: 中央
+ 经济工作会议（惯例 12 月中旬）前最后一份月度增长数
+ 据；10 月官方 PMI 重回收缩（49.3）后，11 月读数是「内
+ 需能否止跌」的关键检验，直接影响会议政策加码预期
+ 。\n来源: 国家统计局《2026年主要统计信息发布日程表
+ 》——12 月日程以统计局公告为准，标「预计」\n— 生
+ 成自「下周经济大事日历」，一致预期仅采用彭博/Refini
+ tiv/FactSet 口径
 LOCATION:中国
 CATEGORIES:中国资产
 STATUS:CONFIRMED
@@ -426,7 +362,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261215-5d887e8b48@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261215T101500
 DTEND;TZID=Asia/Shanghai:20261215T104500
@@ -434,16 +370,17 @@ SUMMARY:中国12月MLF
 DESCRIPTION:全称: 中国 12月 中期借贷便利（MLF）操作规模
  与中标利率\n重要性: ★★★★☆\n状态: 待确认（操作
  日以央行公告为准）\n北京时间: 10:15（美东: —）\n前值
- : 11 月 MLF 预计 11/25 前后开展（10 月为 10/26：7\,000 亿、
- 中标利率 2.00%，缩量净回笼）；1 年期 MLF 利率自 2025 年
-  5 月起未动（7 天逆回购政策利率 1.4%）\n预期: 未获取\n
- 关联资产: A股（银行/券商）、港股、人民币、中国国债
- \n关注点: 12 月 MLF 续作规模与利率是 12/21 LPR 报价的定
- 价基础；年末跨年流动性安排（7 天逆回购加量与否）
- 同期观察。\n来源: 来源：未获取，待核实（人民银行公
- 开市场业务交易公告；若延续近月节奏则 12/25 前后操作
- （10 月为 10/26））\n— 生成自「下周经济大事日历」，
- 一致预期仅采用彭博/Refinitiv/FactSet 口径
+ : 11 月 MLF 已落地（11/25）：8\,000 亿元 1 年期（到期 1 万
+ 亿、缩量续作净回笼 2\,000 亿）＋同日 7 天逆回购 5\,000 
+ 亿；10 月为 10/26：7\,000 亿、中标利率 2.00%；1 年期 MLF 
+ 利率自 2025 年 5 月起未动\n预期: 未获取\n关联资产: A股
+ （银行/券商）、港股、人民币、中国国债\n关注点: 12 
+ 月 MLF 续作规模与利率是 12/21 LPR 报价的定价基础；年末
+ 跨年流动性安排（7 天逆回购加量与否）同期观察。\n来
+ 源: 来源：未获取，待核实（人民银行公开市场业务交
+ 易公告；若延续近月节奏则 12/25 前后操作（10 月为 10/26
+ ））\n— 生成自「下周经济大事日历」，一致预期仅采
+ 用彭博/Refinitiv/FactSet 口径
 LOCATION:政策/央行
 CATEGORIES:中国资产\,央行/政策
 STATUS:CONFIRMED
@@ -456,7 +393,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261215-5e197d1f8f@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261215T213000
 DTEND;TZID=Asia/Shanghai:20261215T220000
@@ -485,7 +422,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261218-6ff4a1d276@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261218T103000
 DTEND;TZID=Asia/Shanghai:20261218T110000
@@ -520,7 +457,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261218-6f36944f02@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261218T204500
 DTEND;TZID=Asia/Shanghai:20261218T211500
@@ -555,7 +492,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261223-5d3c1f8b9d@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261223T213000
 DTEND;TZID=Asia/Shanghai:20261223T220000
@@ -563,15 +500,15 @@ SUMMARY:美国Q3GDP终值
 DESCRIPTION:全称: 美国 Q3 2026 GDP 终值（Third Estimate）＋ 企
  业利润与州级数据\n重要性: ★★★★☆\n状态: 已确认
  （BEA 官方日程）\n北京时间: 21:30（美东: 12/23 08:30）\n前
- 值: Q3 初值折年 +3.4%（10/29 公布）；二次估算 11/25 公布
- （第三方汇总预期 +3.5%）\n预期: 未获取\n关联资产: 美
- 股、美债、美元、黄金\n关注点: Q3 增长最终定稿，与同
- 日 11 月 PCE 同步发布；若库存／净出口修正明显将改写
- 四季度环比基数，影响 2027 年增长定价。\n来源: U.S. BEA 
- Release Schedule（bea.gov：GDP (Third Estimate)、Corporate Profits by 
- Industry、State GDP & Personal Income\, 3rd Quarter 2026，12/23 08:30 A
- M）\n— 生成自「下周经济大事日历」，一致预期仅采用
- 彭博/Refinitiv/FactSet 口径
+ 值: Q3 初值 +3.4%（10/29）；二次估算 4.3%（11/25，上修 0.9p
+ p、三年来最快）\n预期: 未获取\n关联资产: 美股、美债
+ 、美元、黄金\n关注点: Q3 增长最终定稿，与同日 11 月 P
+ CE 同步发布；若库存／净出口修正明显将改写四季度环
+ 比基数，影响 2027 年增长定价。\n来源: U.S. BEA Release Sche
+ dule（bea.gov：GDP (Third Estimate)、Corporate Profits by Industry、S
+ tate GDP & Personal Income\, 3rd Quarter 2026，12/23 08:30 AM）\n— 
+ 生成自「下周经济大事日历」，一致预期仅采用彭博/Ref
+ initiv/FactSet 口径
 LOCATION:美国
 CATEGORIES:美国
 STATUS:CONFIRMED
@@ -584,7 +521,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:econ-20261223-a18f34442e@weekly-econ-calendar
-DTSTAMP:20261125T104256Z
+DTSTAMP:20261126T102736Z
 SEQUENCE:0
 DTSTART;TZID=Asia/Shanghai:20261223T213100
 DTEND;TZID=Asia/Shanghai:20261223T220100
@@ -592,14 +529,15 @@ SUMMARY:美国11月PCE
 DESCRIPTION:全称: 美国 11月 PCE 物价指数（含核心 PCE）＋ 
  个人收入与支出\n重要性: ★★★★☆\n状态: 已确认（BE
  A 官方日程）\n北京时间: 21:31（美东: 12/23 08:31）\n前值: 
- 10月 PCE 11/25 公布（9月 整体同比 +3.6%、核心 +3.1%）\n预
- 期: 未获取\n关联资产: 美股、美债、美元、黄金\n关注
- 点: 圣诞周前最后一份月度通胀读数；12/8–9 FOMC 决议与
-  12/10 11 月 CPI 已落地后，本报告主要用于验证政策路径
- 与 2027 年初通胀斜率。\n来源: U.S. BEA Release Schedule（bea.g
- ov：Personal Income and Outlays\, November 2026，12/23 08:30 AM）\n—
-  生成自「下周经济大事日历」，一致预期仅采用彭博/Re
- finitiv/FactSet 口径
+ 10月 PCE 11/25 公布：整体同比 +3.8%、核心同比 +3.3%（三年
+ 最高）、核心环比 +0.3% 连续第三个月\n预期: 未获取\n关
+ 联资产: 美股、美债、美元、黄金\n关注点: 圣诞周前最
+ 后一份月度通胀读数；12/8–9 FOMC 决议与 12/10 11 月 CPI 
+ 已落地后，本报告主要用于验证政策路径与 2027 年初通
+ 胀斜率。\n来源: U.S. BEA Release Schedule（bea.gov：Personal Inco
+ me and Outlays\, November 2026，12/23 08:30 AM）\n— 生成自「下
+ 周经济大事日历」，一致预期仅采用彭博/Refinitiv/FactSet 
+ 口径
 LOCATION:美国
 CATEGORIES:美国
 STATUS:CONFIRMED
